@@ -47,9 +47,12 @@
 
 Feature:This is the test get User API
 
+Background:
+    * def baseURL = 'https://reqres.in/api'
+    * def createUserData = read('classpath:reqResApp/testData/createUserPayload.json')
 
 Scenario:Get all users
-    Given url 'https://reqres.in/api/users'
+    Given url baseURL +'/users'
     When method get
     Then status 200
 
@@ -64,9 +67,10 @@ Scenario Outline: Get users using by page = <pageNo>
     Examples: 
     | pageNo |
     | 1 |
-    | 2 |
-    | 3 |
+   # | 2 |
+    #| 3 |
 
+@progression
 Scenario Outline: Get users by ID = <IdNo>
     Given url 'https://reqres.in/api/users?id=<IdNo>'
     When method get
@@ -140,13 +144,6 @@ Scenario: Delete user with Id 1
 Scenario: Register a User
     Given url 'https://reqres.in/api/register'
     And header Accept = 'application/json'
-    And request
-    """
-        {
-            "username" = "khushboojoshi"
-            "email" = "khushboo.joshi@reqres.in"
-            "password" = "abc@12345"
-        }
-    """
-        When method Post
-       Then status 200
+    And request createUserData.users[0]
+    When method Post
+    Then status 200

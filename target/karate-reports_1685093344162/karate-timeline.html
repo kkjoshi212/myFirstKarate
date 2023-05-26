@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4},{"content":"pool-1-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"ReqResApp\/apiTest\/pdf[1:6]","start":1685092809823,"end":1685092810312,"title":"ReqResApp\/apiTest\/pdf[1:6] 19:20:09.823-19:20:10.312 Extract text from a PDF"},{"id":2,"group":2,"content":"ReqResApp\/apiTest\/users[1:54]","start":1685092809823,"end":1685092812086,"title":"ReqResApp\/apiTest\/users[1:54] 19:20:09.823-19:20:12.086 Get all users"},{"id":3,"group":3,"content":"ReqResApp\/apiTest\/users[2.1:69]","start":1685092809823,"end":1685092812622,"title":"ReqResApp\/apiTest\/users[2.1:69] 19:20:09.823-19:20:12.622 Get users using by page = 1"},{"id":4,"group":4,"content":"ReqResApp\/apiTest\/users[3.1:84]","start":1685092809823,"end":1685092812620,"title":"ReqResApp\/apiTest\/users[3.1:84] 19:20:09.823-19:20:12.620 Get users by ID = 1"},{"id":5,"group":5,"content":"ReqResApp\/apiTest\/users[3.2:85]","start":1685092809823,"end":1685092812629,"title":"ReqResApp\/apiTest\/users[3.2:85] 19:20:09.823-19:20:12.629 Get users by ID = 2"},{"id":6,"group":1,"content":"ReqResApp\/apiTest\/users[3.3:86]","start":1685092810334,"end":1685092812620,"title":"ReqResApp\/apiTest\/users[3.3:86] 19:20:10.334-19:20:12.620 Get users by ID = 3"},{"id":7,"group":2,"content":"ReqResApp\/apiTest\/users[4.1:108]","start":1685092812107,"end":1685092812958,"title":"ReqResApp\/apiTest\/users[4.1:108] 19:20:12.107-19:20:12.958 Update users by ID = 1"},{"id":8,"group":4,"content":"ReqResApp\/apiTest\/users[4.2:109]","start":1685092812635,"end":1685092813332,"title":"ReqResApp\/apiTest\/users[4.2:109] 19:20:12.635-19:20:13.332 Update users by ID = 2"},{"id":9,"group":1,"content":"ReqResApp\/apiTest\/users[4.3:110]","start":1685092812635,"end":1685092813348,"title":"ReqResApp\/apiTest\/users[4.3:110] 19:20:12.635-19:20:13.348 Update users by ID = 3"},{"id":10,"group":3,"content":"ReqResApp\/apiTest\/users[5:113]","start":1685092812633,"end":1685092813304,"title":"ReqResApp\/apiTest\/users[5:113] 19:20:12.633-19:20:13.304 Patch user with ID 2"},{"id":11,"group":5,"content":"ReqResApp\/apiTest\/users[6:134]","start":1685092812644,"end":1685092813357,"title":"ReqResApp\/apiTest\/users[6:134] 19:20:12.644-19:20:13.357 Delete user with Id 1"},{"id":12,"group":2,"content":"ReqResApp\/apiTest\/users[7:144]","start":1685092812969,"end":1685092813602,"title":"ReqResApp\/apiTest\/users[7:144] 19:20:12.969-19:20:13.602 Register a User"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

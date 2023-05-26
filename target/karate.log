@@ -750,3 +750,3471 @@
 22:24:57.010 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684758296996
 22:45:24.347 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
 22:45:24.371 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684759524355
+19:26:31.227 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:26:31.374 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684920391303
+19:29:58.839 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:29:58.904 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684920598865
+19:30:08.359 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:08.612 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:08.634 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:08.656 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:08.676 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:11.288 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:11.288 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:11.288 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:11.288 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:11.288 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:13.686 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2366
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 3430
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=luT%2B1J1BJtwo4Wi7TlTuHl4LrgObUgqtPDbyHVSOCxLq27GPUd5Slp93PqQW8JmGeHeca9UFCbNwX0VgnUvJ%2FRDtr%2BJhVAYk1BkclOopbsEjLEsBJUCbBl%2FFZw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484caefa629a8-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:13.686 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 2368
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5176
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gGz2kkwdIbF7UcwbZFNNodLUAYriCXznEFyX4LA430ABq%2BEPjDjLJpiyR9eqpM0l3LnVescKk1KbWJ50F4fLgATo8YGZMyGZ3YGRTULiVJo5HTPb0gZCI2k4zA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484cb6cb72b34-MEL
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:13.905 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:13.949 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:14.091 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 2798
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"c5-hJoimgtl6KhaZadfgKS3TQ7g00U"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KX9MmFwSt%2BkOU0UA8KZSP1rc5WlLsvmbHudWURwN20lvDDqS6rabpQvi6uVlokL4Pl8uiOfUhdYctwwrIAycO5piUCTmzXqFxerFfiONNLwlDW3tQN1XL885Fg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484caef16299f-MEL
+{"page":3,"per_page":6,"total":12,"total_pages":2,"data":[],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:14.108 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 2814
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ozzTOr3lfqi2r92kL2jZERcoknKYYpfddtcAKnwjSfIyKX%2Fz%2BF51v4OEzA0CMPkWm8AzaH6a8rwOFiD4uDwsIhBmogqg7X1PhVcHrZkZRmput3mzLepsoewveQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484cb28ca29aa-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:14.208 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 2912
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8CywBA%2FuE9GasJrgwQHR2%2Fuyyy3Sxet89U%2FwCu1phwLpACX554PAnr6J5sCaVwVJjL35%2FQnG6f5FcbgjL6yWf63gIrUWw20qp%2FG9DnzYLYDZDFrhB5TQpR4%2B6w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484cbbad029c5-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:14.358 [pool-1-thread-4] ERROR com.intuit.karate - classpath:ReqResApp/apiTest/users.feature:64
+* match response.data[0].id == 1
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  1
+
+classpath:ReqResApp/apiTest/users.feature:64
+19:30:14.558 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:14.588 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:14.640 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 685
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x0i%2BJmmwHL2SIYc8G3s1AZ7BwjQ1pkD5Qsa%2BLs8PXiPWOrs%2FWLttMMk59K2%2F7%2FtbQwNdh7w1yoGHr1wMI%2BwnKoDXIM5ZIETeqyMQB23xMmeTbA2YvXGHF8kyLw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484ce4fe25a4f-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:14.677 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:14.724 [pool-1-thread-3] ERROR com.intuit.karate - classpath:ReqResApp/apiTest/users.feature:64
+* match response.data[0].id == 1
+match failed: EQUALS
+  $ | not equal (NUMBER:NUMBER)
+  7
+  1
+
+classpath:ReqResApp/apiTest/users.feature:64
+19:30:14.744 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:14.989 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:15.268 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:15.343 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:15 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=trPlizYWmzlmaQ%2F8m8Lb54ltQbiHDNbzZB5%2FSMfdQEr1XRJDhIL42PbRZNLLtZGI%2B%2FjWHuxsEUnQcYMFOKrnywN44eHdeU4HkJ8jCxRZAAUBg4DE2nqHpTMLEA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484d2de2f1f6a-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:30:15.425 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:15.630 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:30:15.631 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:30:15.710 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:30:15.843 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:30:16.081 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:30:16.317 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 683
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-utrVXAlOz2/awRJB8e0FVbHE+1U"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UO6Nw1GuaYnj47T3skVQ6aVyShHGe2ygElXzN7k7aYK7WqQTplMMlMYsM9Zlt1noxViFz5Uod%2Fwd8Tmg%2FWzPWqRHazwnW0BJDPuDg7CFvloQwDyU0umxo5iABg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484d8efc41f6c-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-24T09:30:16.240Z"}
+
+19:30:16.335 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 697
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-LvNK0ogJDetrs14m5XWH35yYRGM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SetmxufqvgIVwdqcqeUgQ%2BNh2UIrVCVR4m%2FIl07qr0MEleh%2BNYU4Vbr6nELu6f%2BgPeL5U0siAnwEFfEoCB7dJ9bBQxJHaztIuzR6ENj9Vp282kbxp3zRZz7jng%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484d90dc92b2c-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-24T09:30:16.252Z"}
+
+19:30:16.401 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 204
+1 < Date: Wed, 24 May 2023 09:30:16 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qyzYnjmfqdijgMoIGClc3b6Eaq42I6jKFvZvnt%2FIlCeg5bWWi0dXqyhtoPSGGDYKrdIUOIfomFoqXDMpYBmW7NiIQ%2F5DQE%2FYpGJvdygPRo4BDM28nnCDOm3%2Bug%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484d97ed21f66-MEL
+
+
+19:30:16.449 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:30:16.509 [pool-1-thread-1] ERROR com.intuit.karate - classpath:ReqResApp/apiTest/users.feature:146
+And request
+"""
+{
+    "username" = "khushboojoshi"
+    "email" = "khushboo.joshi@reqres.in"
+    "password" = "abc@12345"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected character (=) at position 16.
+classpath:ReqResApp/apiTest/users.feature:146
+19:30:16.832 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 981
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-1gtuTpuzKtbFZ8XFGApAJpT86qE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IMKD4AIVxHovPU255qlWHIs3TRpaWp2xYFuudmJnPFdH8ODzjva6XidQjyNtyN9Mr2kgJtGnl8D9dOOTGSfRunqAz4uqUNv9GYO0r%2BR2oa3JxBDnVy5kf2hVvA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484dc28ec29b3-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-24T09:30:16.750Z"}
+
+19:30:17.215 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1129
+1 < 200
+1 < Date: Wed, 24 May 2023 09:30:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-YWTXYLpEUk7t9d5+DKxVJzchBZo"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vGAByKjRRjazh6BC2t8wGJxrMQ1BZW8934A8gLfIDyriuLeUW4vOdKydN4wbA1rdwO4Hbeke8%2FTCx7I5VcHIZPKtkSImFi9p1G4mZ4N%2B2swW3AEgyOCMVg7xTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc484de89305a4f-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-24T09:30:17.130Z"}
+
+19:30:24.657 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:35:46.226 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: ReqResApp/apiTest/users.feature - mismatched input '/' expecting <EOF>
+19:39:43.803 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:39:43.866 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684921183828
+19:39:53.326 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:53.593 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:53.614 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:53.637 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:53.659 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:56.285 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:56.285 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:56.285 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:56.285 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:56.285 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:58.160 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1850
+1 < 200
+1 < Date: Wed, 24 May 2023 09:39:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4015
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wpObpaWgHWpNFKqYQU%2BpkYHPy5W%2FBGEJ0XbkP3KDSuIdP948WHQvASKxFvpHyFBJHfCm4X7mGa%2Bxzd1s8aY1KVGNUrr0TiU0hKbfw%2BnNP5cGEEzJluC%2Bfd9rUQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc493105e5829ab-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:39:58.160 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1851
+1 < 200
+1 < Date: Wed, 24 May 2023 09:39:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 584
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r2Z4lsjvaJSulqcdvo0OtfihU1D34pQrwyONEP2h%2F19nBc4YA2yhfGl8qcBpYYSdF1QCC827lKKrT%2BJ26gHm0vAEm9rjWFhNMLmJg1B0vXXA5QWWSKbXoNdHDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4931059ad29ba-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:39:58.160 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1851
+1 < 200
+1 < Date: Wed, 24 May 2023 09:39:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 584
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dlso7zBvMkA61fVgz9QMoVsFApJ2eYBfMnn5sJqT4u0RzeBeyp1ahjIdi2OJ6oj30JpDLwZUm7egreuRVdS%2BFD%2BZvuNuH2eo8aPkNWsAJLHCUqY7NdjMx7P4Yw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc493105d1a29ae-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:39:58.161 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1851
+1 < 200
+1 < Date: Wed, 24 May 2023 09:39:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 583
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QiULHhUdswHzKBigMzvbyo1LpKKs5QvhwQEM1SORpiFw6Bmx45cBy14JcwYnHJxB9I3DieFlGph8ESD92t7dDZLreKpRViG1JA4vgEI3aRxvlZyQARxV2Iw4rg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc49310496b299d-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:39:58.160 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1851
+1 < 200
+1 < Date: Wed, 24 May 2023 09:39:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 584
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x%2BJrgDAQOzi8TolDZSLRhIlCcdwXzZu4Cewkn7ytY89LQ6uZLEZnyncj7JBAkCnHAsDt0CBeajooC1e1p%2FIvTrcAJngbzCsy0lV%2BeDFFwU8XY0E9UHKZ9oZBkw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc493106f081f6b-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:39:58.567 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:58.623 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:58.740 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:58.963 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:58.998 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:39:59.142 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:39:59.322 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:39:59.322 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:39:59.322 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:39:59.348 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:39:59.904 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 757
+1 < 204
+1 < Date: Wed, 24 May 2023 09:39:59 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GHHDpMsfMuOq9U7%2FCJL1EImlaoTcoKodU9CwmQjuIKcmIQqBzMtOEEPcXXSgXRbikPXqPcNTYHV0x%2FyJVC8fAs8hyFyark0VHKCnj3uEbLpYE7MRoYx%2B5oYzEw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc49318287329ba-MEL
+
+
+19:40:00.027 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 702
+1 < 200
+1 < Date: Wed, 24 May 2023 09:40:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-BrNi7ehBHsklzmg5AsmkQHjQJjo"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yo2js3ATjS5w0at7unpxQm9hky51rV1eq4lj7jiYMEq8hwBque11lNNO5LsWpuD2PIVL2gBzzjbmzb7749o2we2RsxUHbIeS9VmS9KY9yglrG%2FOjAS07C5XlOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc493191c6c5ab0-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-24T09:39:59.954Z"}
+
+19:40:00.063 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 736
+1 < 200
+1 < Date: Wed, 24 May 2023 09:40:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-iE9X2F3DRqJDXyTHI0mj27+JQlQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XBXNcWfggI3WD%2B%2FrUGGRf5hy6JE3z5IXGvyQWC1e1qMBgG4kTRDmghTuLTvn2I%2BOUPip6xZVvUXlJAbsCm2y41diMajHpuXsuKHrV8rjTDcelig7fRkFDNNsWQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc493195bbf1f5b-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-24T09:39:59.986Z"}
+
+19:40:00.284 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:40:00.416 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 1079
+1 < 200
+1 < Date: Wed, 24 May 2023 09:40:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-5HXyajm6wiPXJ12eNPAoEbH52u0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0QEOUBWqs2eP%2BQwRemeJ7rr2SOPW63JYzr8bsxd%2Fh25zMyZVN2Pm1NOreIB4Rzk0qgNPx2ZkGULcETca8iB%2BApJY1gBeRnMGNATYtORURDkTFbRivdJl2ATumg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4931b6e4729aa-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-24T09:40:00.323Z"}
+
+19:40:00.428 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 990
+1 < 200
+1 < Date: Wed, 24 May 2023 09:40:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-56YebKYglKMF8kDKNSr7Qtj7j/Q"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dh1AmPy4YtZhCbAXp22BzruA5cRSIBRClONpv%2FFMBHSUP6AAgFA%2Fvl4oAYbUZO%2BFwrmRQc13PGi%2FP7UJOYNkoSFw0zi5kHuo%2F7PPn%2Bfr%2F30PLV4%2FLyyEgM4vjQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4931b5d325a98-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-24T09:40:00.322Z"}
+
+19:40:00.627 [pool-1-thread-5] ERROR com.intuit.karate - classpath:ReqResApp/apiTest/users.feature:146
+And request
+"""
+{
+    "username" = "khushboojoshi"
+    "email" = "khushboo.joshi@reqres.in"
+    "password" = "abc@12345"
+}
+"""
+net.minidev.json.parser.ParseException: Unexpected character (=) at position 16.
+classpath:ReqResApp/apiTest/users.feature:146
+19:40:06.812 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:43:30.401 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:43:30.469 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684921410428
+19:43:38.669 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:38.896 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:38.912 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:38.952 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:39.006 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:41.053 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:41.053 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:41.053 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:41.053 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:41.053 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:43.191 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 2110
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 809
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5fWzG7VP7GJ1ziqauW7OE9K%2F2MfXHcg3nbURrQrI9DpJIM6NSE4L1zgvm02x3d8S%2FSrTvxu1fYGm2OQ%2BDObhui6H4HJg8spXGRZn2sEDVGTi9VjEM9phBmLu8g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4988f3e8d1f62-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:43:43.191 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 2109
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 809
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d4g5HcaLAaT%2BjYlZymXqrW0OqmxtvywrKEIQ13vnMpZBwRhkn7lqr5nbuvUO%2Ff7wBkFrg%2F1kK2Gby5k7DCtEulCa8wv62gp4nllM3oWJxtMv4o2wsHm%2F4ZZBuA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4988e9c7c5a8b-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:43:43.191 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2110
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4240
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dkZJ%2BstRArn9wLMd9LLQaWoBXDjtXJWdYh4BHh%2Fl7xmAhIxHjxhLNpZEqbXa6sRICInF5vwn3DZrl%2B5bQnLAkZVcdxIFkjeuo%2F91PSz4M8LhogGiB072cE6O2A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4988edc0d2b30-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:43:43.192 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 2109
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 809
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=303AFf9cuFN%2BQj8qTV0vKvryXZ4B8NCTD8vCUmaX6VBLVTRSdQzDiK2Z0hAvqsgFC3c%2BR4tsbFIGfyaFk7vONXVTA4UU294MdmknLU4w0I8rDzvues2PX1Mdqg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4988ebc830697-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:43:43.191 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 2110
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 808
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5QWUTHY7xaxwWwRSYluehzctzCUq6v9qeppmC%2FOmWF05GMMPmiQkVuEn5eAQiY7AwvNgtGpht0S58xzDIfKhTeqTGt7QpkxzfU9U%2BrsLGbZWVV6MKh2Fjp8sgg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4988e89025a4f-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:43:43.513 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.057 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.068 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.187 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.294 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:44.521 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:43:44.608 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:43:44.608 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:43:44.611 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:43:44.865 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:43:45.388 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 771
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-iKZKP04tvbzIhuuZnhm7GqogEX0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LeHAmmWIqWmGGrYtF1GtSiynfmre5CBqxlbMfK9NIrHxVsUyxW6A5nd%2FThDGg%2F8rcaT4DxBHoUCyP4BaF162Ufb7yYg8NOBIxZrHToKU7UIBBD2tZL3uWTojDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc498998b5229a3-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-24T09:43:45.316Z"}
+
+19:43:45.408 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 798
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-aqaEkDNLnc2wvPkbGrceakYWgaA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oKOE2Df1Dsk2B0%2FIcG6VKbj%2BYHHqA4ob8Lr6McBFIoImEjKhYVxveL3744rnM4GV3%2FwCziP0pd4kuO%2FoESuQgIELepy%2BWfhHFMRVxDJzUIPFSdVQ2fy5fphP8g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc49899ab0929ba-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-24T09:43:45.324Z"}
+
+19:43:45.458 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 843
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-m7wzSe6tImaiqjW2WYI90k7RuEY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IHAiAY%2FP2iE0Pa1ORk%2B%2B42GF%2BhmaGaCdS2v3meSEo0pCkVeiwGK%2FqVw27R0l7x%2FsrSPsj2LlOM0LEiT%2BJBBPv62IZBSOaRmjwxlejIz5SN67D6nElySQm6qQZQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc49899d98f5a4f-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-24T09:43:45.364Z"}
+
+19:43:45.554 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:43:45.580 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1052
+1 < 204
+1 < Date: Wed, 24 May 2023 09:43:45 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Znq7le2Fr26K74d0YZLMKHmZ8x%2BoZOUoUZwOk9amrqXJwevAuZwNO%2FAqORKNkEkxEkvvnvE4EZOL0KJBLsQ96gx5TUpBdpA%2FKojFC4XrMbd2fUgrq%2BUzRzzJmg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4989aad555abc-MEL
+
+
+19:43:45.635 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"khushboojoshi","email":"khushboo.joshi@reqres.in","password":"abc@12345"}
+
+19:43:45.769 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 845
+1 < 200
+1 < Date: Wed, 24 May 2023 09:43:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-/dIKUfDxcAUam2Z9UIcXWHxKj8w"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=e%2FUf%2F9SQPIe9lKzKmkueW3A1HGJnUuvrRwBCnQi2ZD1zPONesn8fKMMXkYs4QXZzgIh42b%2BiQwx2uTZXfuJh5wyUkh%2FM7iTehnP0iSOgVYoV1lP8ojIs8S%2BctA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4989be80f2b32-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-24T09:43:45.687Z"}
+
+19:43:46.334 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 695
+1 < 400
+1 < Date: Wed, 24 May 2023 09:43:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 57
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"39-6jrJxn+7f+pQUhbPgNMst7tagpA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kIXcLPY7iX9a1dVB%2Bj0FmyFwzAZzP1TBApOQ8hG1BR7ySMAlrSnYOpX5R1ZydQuo8xg5tUkT7i0Il1BzPBRcdAKlGeSJe860rU%2BLwVVRSUwKKeRfTyZYMrYIig%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4989f5efb1f67-MEL
+{"error":"Note: Only defined users succeed registration"}
+
+19:43:46.683 [pool-1-thread-2] ERROR com.intuit.karate - classpath:ReqResApp/apiTest/users.feature:155
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 695, url: https://reqres.in/api/register, response: 
+{"error":"Note: Only defined users succeed registration"}
+classpath:ReqResApp/apiTest/users.feature:155
+19:43:55.560 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:51:33.663 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:51:33.683 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684921893671
+19:51:36.269 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:36.322 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:36.328 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:36.337 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:36.346 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:37.103 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:37.103 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:37.103 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:37.103 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:37.103 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:37.868 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1283
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aFj7rIsE4P%2BWWCStTGdf6huOWuCREQprZdDyOg5CUMp1xM7yLDh2StZPM%2BCyhAwnm1GcLVZK0nPHI3CMb9tPYk8j13U1B9UVSWbfXFZQfS7%2BuexaTGZQdk2ZLw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a425ea2917ca-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:51:37.868 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1283
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9g6Wo3UIGQov0Twyh%2Ftv1EkliyUYbAsa19SEFI1cNREwWeWwYhZV80dMT2acc7yefva84kBHZNB44u1ByvXM%2Fe%2B6yhQRAkt3g6JvKZw29nQK3Bsh7Fk0uXcGNA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a425fbde1f5c-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:51:37.868 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 756
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4714
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Et%2FT3JiKnh1JzhLGgT2LYQ%2BlKzAhpJO0mjaG5ZfE5V32JVJuO6IWTwMO6gPbe8jD%2B%2FkEqPzGoHc%2BEElkgUqnZje8frhZhpH4W82Y%2BTMiZ1sQ1lhhSxk3NXBGaA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a425eb7e1f67-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:51:37.868 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 755
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1283
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b%2F7xp%2FlrRKraPZoOFkYHiLpn8q7rStEpjOBMMqESHKR6WwxyGL%2BaGDu9Xosns1o%2B3zv%2FhjHexA2TONqTriEDSpi%2BcepIvafqJnGwzGecKJubgFVev6G8r3VqSA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a425fbcb2996-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:51:37.868 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 756
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1282
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O08xYSjVrrv6YbVJ0J0ZKH%2BW8YsjzHyc3ezV3YSIbuINiKeV5UKQZLSJeFetlff0e00mbmnHrrja2RyqYbF4ia%2BsSS%2BnNBHfDgePvSMEUY33doYOOYSQcI5uSQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a425ea552999-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:51:37.955 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.038 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.058 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.088 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.098 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.181 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:51:38.181 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:51:38.182 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:51:38.181 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:51:38.188 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:51:38.811 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 620
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-bIG+oc2wV/q8ZTTC8dvi0PK6kYA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D8ZbCPjeJlzoQrHlfbuBkcvN3yOIeM9h%2BqhzLF2hvyBzog%2F20zVsUy6ty2F%2BSGwTmdcEWYvPvnJKvFnhASwMC7%2F2OSM8lnle4t1lVVvZwIwtmfXZs%2BHZLMNGww%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a4289ebf3776-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-24T09:51:38.742Z"}
+
+19:51:38.836 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:51:38.844 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 661
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-TGfl2FkTdU2WldbcvRSk6vY60wY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oxe9Pvp3jr%2Bu%2Bwg0V6bbxd%2BXf%2BRbGuk3UoTkfwuqMendPFgApy6k%2BTAMhQoxGghWAj1r6265sLk9%2FfYsHlSao6%2FaxDWJ8OPkg6DXQueKZLUa7%2Fmzze%2Bz0w6NIA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a428adea2b36-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-24T09:51:38.763Z"}
+
+19:51:38.855 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 671
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-nm3XtwZt3EXef1ElcnrOKgFVlio"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9Q9EEKQvApOuPi9kLzzMCp%2FPXJIeldqurn5RBMu9tCzolbU7ho8YfpL8aOm%2F%2F9%2BiV%2BsCf8Gzfsp%2B3nfdcEwgsVSh%2BLvrjErBp99PmWuDL3uzO5M3Ohyf0iLfCQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a428b8a13779-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-24T09:51:38.775Z"}
+
+19:51:38.857 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-KPIJe+PvW/Alf7bfw9KhHu+R4HY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TioBAjibAFuVEOGLkJ%2BverjdZpUYvjpJ%2FFAiKRve1eOfNzxOCAb5chvP3edeJU7Ki7y04C63v2Njd%2BTqdMZjlrm7%2FAVJIRgdAP4axneOKgJ3mtXjTQoGZHoePA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a428dcf81f68-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-24T09:51:38.793Z"}
+
+19:51:38.866 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 204
+1 < Date: Wed, 24 May 2023 09:51:38 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ohoTwmXaTJWljyriUpkTfKTsNmpP%2Fx6eEoqMZafYintXk%2FWcmhd0KkO4ieJPMQT301F0Do0C3pFthsGaZV3k0OiGuF2%2FxTbMGqzf1lNddMLw9psu9dY6K6PO4g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a428cb251f65-MEL
+
+
+19:51:38.877 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"eve.holt@reqres.in","email":"eve.holt@reqres.in","password":"cityslicka"}
+
+19:51:39.516 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 637
+1 < 200
+1 < Date: Wed, 24 May 2023 09:51:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 36
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q6%2FP%2FZ8Tz1mIFPD0Um%2FVKjTG8DnqVJ0y4Fnl0BhgrxtlXFxGUnkmcdo5ejJCvPmkglxlWDSG2LRIdS4KGcbL06qQn8TNwES5x6cHFJQTxqtIvCX751OXLH8zWg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4a42d1e213779-MEL
+{"id":4,"token":"QpwL5tke4Pnpja7X4"}
+
+19:51:41.488 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:59:21.962 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @progression classpath:ReqResApp/apiTest/
+19:59:23.138 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:59:23.148 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1684922363140
+19:59:24.721 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:24.761 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:24.765 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:59:25.188 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:59:25.188 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:59:25.188 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:59:25.793 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 599
+1 < 200
+1 < Date: Wed, 24 May 2023 09:59:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1750
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vM5Tzt7nhnTI84wKOB2gARbhpY74SwXeIVZcg7A6zIV4hffNxziTkn3PwNeIrEbd2gXonzgP4%2Fc5wW1vLMa5Y4KVv0ZvgNgbEW5N5sf9hqW%2Bc%2B5nwAHe8%2FBCOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4af9298292b2e-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:59:25.793 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 600
+1 < 200
+1 < Date: Wed, 24 May 2023 09:59:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1751
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zVOLp8z3P8LH4Tg54lyMFkeogTMzC5SYWl5iurOcqoGT0DIFBCd38QVq4p37c5%2B33NFq7HYbbzUXEnguYik9GuNvSobBH4ct64aYzZlcnXEGIwLXbp5qlGofLg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4af9299ac1f6e-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:59:25.793 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 599
+1 < 200
+1 < Date: Wed, 24 May 2023 09:59:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 1751
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FPi1MLY1wCxpABTajcd2aiWDsM1BVoAOt55fc8b2Oyh4ZMGw3KgoRhZwHWpbcYz%2BMHkv%2FEjCaguaMvLfzL6ivCzJHPkuzV4YRfDUSGmeY7QmgqIU5zlEshA94w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cc4af929e942b37-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:59:27.404 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:20:07.859 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:20:07.876 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685092807865
+19:20:07.888 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+19:20:10.114 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:10.152 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:10.157 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:10.164 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:10.169 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:10.312 [pool-1-thread-1] INFO  com.intuit.karate - [print] null 
+19:20:10.341 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:11.266 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:11.266 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:11.266 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:11.266 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:11.266 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:12.047 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 766
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4032
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IQoSQuXQuA1T7LVe9AEg0ScsEHiDSsV0pKx7CtCb15xMNZ3j8xvD%2FPFlT6P88t2WMkUUg1oOn0807kafNAccfED7pHcR8kB7NqiSceFOBtsqxlZmZXQ7CWF7oA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0decb2329a7-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:20:12.111 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.301 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:20:12.410 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:ReqResApp/apiTest/pdf.feature
+19:20:12.556 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 1288
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cXUYg3J3HKLFiA02Id9VREMFsXQtoYyuqUUWeHGEUQihI3dOcXvD6ExaIJKeG83nX5U0%2FEKSspPwk%2BHPpQc%2B1wirDfLxGzglJP%2F%2FC08iSpITdruFAmqC4t1qTQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0dec8ee17c8-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:20:12.587 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 1319
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fs2%2FxmjfEV%2FFap5305jMyyTbj6a%2BBY6SWReO8PGZETJG6NRBXKXbo%2BXwdwlC3vc4iRJxstXfdUEkz1wBPoqqlt6sYfFKwudtDQf8p3MOvXSuATYKXoBsVeXUDg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0decdf71f6e-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:20:12.589 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 1321
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=viYannQrs9xKIMYB%2FnopMEq0pxJ08xVikWu1YdnQbiR4Y4U9dD%2FxYsqa5YrAQPZxvCLhfJhTvuH0TT658Uswkedx%2FxOXK5SDkd4SUGkN%2BiTiCqBOA5KQh2rr7A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0deca435a61-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:20:12.589 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1321
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Fzyz6EMHJ7aR8ntsEhhn4u7ZtWqLVvjcq8YKkeXXBo%2ForAHICk6HHgGonyQwxEQsqUTL8Sj2Lpb9ZZo6rG4ikU8COAL1eSGDViU7LGXtPz4U7CH8eyTqvyB%2BnQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0deca4c2b31-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:20:12.637 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.648 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.650 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.657 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.661 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:20:12.661 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:20:12.661 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:20:12.674 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:20:12.951 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 649
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-S8aTuhYcpN3JibxgY1pq//dp1Cw"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TCFEuktm3BPignXODoHe5o5dooK99PJHtmEIj7ZX1o9r7arj6Jcr4sevTMXCbS0ZJdZYeYZyzxGyugX5Wkmzasfohcaf0CBqfFAJVNqYYm%2FIVSe5YKHRK%2F2eMA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e12b6e29b3-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-26T09:20:13.398Z"}
+
+19:20:12.973 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:20:12.992 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"eve.holt@reqres.in","email":"eve.holt@reqres.in","password":"cityslicka"}
+
+19:20:13.297 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 635
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-iuwpu78W67V0iU+xVmzxT8gUJYY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NfS1PlfuSAA1JPsYP0Axk%2B8qlF7lDqJJTAuPBzHcc%2F0%2BR0sF1%2BRIjMq5T6bPQCgNe2KqEA1E0%2FQ4pDMJQZn9imRLgvhhk09cW02TfqkJL8EADJElHdF5E14LDw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e34d6e1f6e-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-26T09:20:13.736Z"}
+
+19:20:13.326 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-begIgyj4XV+/dWIPCVRKVincSco"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=geRyf4HHFgtbidk6s5SfcMUuj0ARPBXYfUedtazn71Poxy5RvYlLcBmD4nlanjwD0NPi%2FmCtGdUQVIFD4HgtFCqK%2FVgsVfSkn7WspdUOpkRT3lIgeuhK7%2FNpdg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e35f111f5a-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-26T09:20:13.752Z"}
+
+19:20:13.342 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 679
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-GutcE9DOMv4dPCc6sEQdr9WlaGQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2dbSylSk8kSPsh5GnqlB2OHuedwxwWaN3GQp319QBCaJy0kNyDAe7xlZyQ%2BHVpSeW6hob2F9zShM%2BBNbyjMhVacJqvtHdm4owbua5mCm5u9r6jMSJxs6N319Zg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e35f1b2b38-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-26T09:20:13.765Z"}
+
+19:20:13.351 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 204
+1 < Date: Fri, 26 May 2023 09:20:13 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lajpE1o0nCwOK5QrDT5B9If5LDq0K412wDpEBRIUdH6zNSWZvHTc%2FZ8z7nPAto8W9nObQT149cdjv9TelcDKWYVLsgcLDYsfaJ7rAhvq1UzmlrYFB8rhfKpAtw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e38c952b32-MEL
+
+
+19:20:13.601 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 609
+1 < 200
+1 < Date: Fri, 26 May 2023 09:20:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 36
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=S0Ulv%2BReHonr1sX2OQSC%2BzRbxFYqPT4N9gD88EHs89cLy5xWARJcCw54oqX5mgakQogXwXBBqWbg21oBgd8mGECqLhEAoDdeQq5bXEwFzRC5rgebQGbkhkMXZg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4f0e55e4b29a7-MEL
+{"id":4,"token":"QpwL5tke4Pnpja7X4"}
+
+19:20:14.270 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:ReqResApp/apiTest/users.feature
+19:29:04.157 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+19:29:04.175 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685093344162
+19:29:04.187 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+19:29:06.258 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:06.309 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:06.316 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:06.323 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:06.332 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:07.458 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:07.458 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:07.458 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=1
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:07.458 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:08.206 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 736
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 4568
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SjaqMbSUYf1Nkw91YZjcjUFwVDrgW4rIok58Lu3P3f0GFx5SF19T%2F97FyI7JvlnbgrgksZsLkEKhMqebAKnIYbLCeMYHAElZ%2FP1Z6fescsQqJctmzo4gQQEo5A%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf5ce5b1f5e-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:29:08.206 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 737
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-P3iKcVpIgCj9HqYeOOrGLX8qJVc"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 535
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=V68SGQLyQ3qxJLasQiQHXV2HPvYv4kIXhPARTr2KjRox12l1W%2BWU4z5PmSTxaqj%2FA1inFaijCJjL7jlb3c%2FPi7T0xW9CDtowl2FvfO%2FyjGOaJ8TZeNrrR8%2FLMg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf5c89a29a3-MEL
+{"data":{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:29:08.206 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 735
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 535
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QMvO%2Bg13jtbJAyRJPysH8cswxwoSQOUDM2UjylSpa7wnaVGKz12g5FwU3BoiKzUa%2BYj26qzILyB%2FqrRnjlh3Qqol2wOBOlXr9dVtWKwvecqihqQ7TRxhQTANCA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf5cd3a5a61-MEL
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:29:08.206 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 735
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"3e4-2RLXvr5wTg9YQ6aH95CkYoFNuO8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 535
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Jcl1LzRgX2dTtOy7yCImV0%2FilzILQcNSXoOwj1y0PTnrUabKmkPWzvk5I7V6M6E8upNEaB309Z9soM%2Bc2uptUE8xLaSmJQXVUx49sioUE0Qt6kLt%2Fx38vBvJPw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf5ccba2b2c-MEL
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:29:08.285 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.331 [pool-1-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.336 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.403 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.410 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?id=3
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:08.496 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 84
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"112-EeInfgHWtnxhYRnwgZUB667e024"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 536
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gzM2tNL9WIOF%2F254QXzVuR9IllgV1BNfIeTJwevICyALBKLLfOlxJPirr2NQNNJM77og%2BF7Vezhef6rncllt0tgXAQR5tYORLvtMvK7%2Bxvv5r77PhO%2FLZnnrzA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf7dfa517cd-MEL
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+19:29:08.510 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi"}
+
+19:29:08.510 [pool-1-thread-4] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 85
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi"}
+
+19:29:08.512 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/3
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi"}
+
+19:29:08.595 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.622 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > PATCH https://reqres.in/api/users/2
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 107
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi"}
+
+19:29:08.804 [pool-1-thread-1] INFO  com.intuit.karate - [print] Better business
+regulation
+Research Paper No. 14 May 2008
+Disclaimer
+Because this publication avoids the use of legal language, information about the
+law may have been summarised or expressed in general statements. This
+information should not be relied upon as a substitute for professional legal
+advice or reference to the actual legislation.
+© Copyright State of Victoria 2008
+This publication is copyright. No part may be reproduced by any process
+except in accordance with the provisions of the Copyright Act 1968. For advice
+on how to reproduce any material from this publication contact Consumer
+Affairs Victoria.
+Published by Consumer Affairs Victoria
+121 Exhibition Street Melbourne Victoria 3000.
+Preface > i
+Preface
+Consumer Affairs Victoria (CAV) is a significant market
+place regulator. It administers both economy-wide and
+industry-specific legislation covering thousands of
+providers of goods and services. The agency combines
+both policy and regulation making functions with
+regulation implementation functions. CAV has been
+committed to achieving best practice in performing
+its regulatory roles.
+There has been much discussion of the need to
+improve the processes of making regulation in recent
+years, but much less focus on improving the practices
+of regulators in implementing regulation. Experience
+suggests to me that often the more significant gains
+can be achieved by improving what regulators do
+rather than tinkering with what is on the statute
+books.
+This view prompted CAV to initiate a Better Business
+Regulation project, the simple aim of which was to
+improve CAV’s regulatory practices. Subsequently, the
+Victorian Government established a Regulation
+Burden Reduction initiative, which further emphasised
+the need to improve regulatory quality. CAV is a
+portfolio unit of the Department of Justice in Victoria
+and the Department embraced both the Better
+Business Regulation and Regulation Burden Reduction
+initiatives as key priorities in 2006-2008.
+This paper describes the Better Business Regulation
+framework developed by CAV and the Department of
+Justice. It is hoped that other regulators will be able to
+benefit from the work we have done by applying the
+framework to their own circumstances and ultimately
+effecting improvements to their regulation.
+I would like to acknowledge the work done by Rod
+Overall (Overall Consulting) and the Allen Consulting
+Group who have greatly assisted CAV in developing
+the Better Business Regulation framework. The
+combination of experience of the consultants and staff
+involved in the project has, I believe, produced a
+practical and innovative approach to assist in the
+promotion of regulatory reform.
+Consumer Affairs Victoria would welcome any
+comments on the Better Business Regulation
+framework. These may be directed to:
+Frank Rossi
+Project Manager
+Better Business Regulation
+Tel: 61 3 8684 6453
+Email: frank.rossi@justice.vic.gov.au
+Dr David Cousins
+Director
+Consumer Affairs Victoria
+Executive Director Consumer Affairs,
+Department of Justice
+Preface i
+Introduction 01
+Better business regulation 03
+Context 03
+Project approach 04
+The BBR framework 05
+The regulatory cycle 05
+Practices, processes and performance 09
+Good practices 10
+Process maturity 17
+Performance measurement 18
+Making it work 19
+Consumer Affairs Victoria research and
+discussion papers 21
+Contents
+The objective of the Better Business Regulation (BBR)
+project is to improve the way regulators operate by
+developing a tool (the BBR Framework) that assists in
+evaluating performance, identifying opportunities for
+improvement and developing measures to monitor
+performance over time.
+BBR originated in a search by Consumer Affairs
+Victoria (CAV) to identify ‘good practice’ in its
+regulatory activities. An extensive literature search
+revealed that although there are widely accepted
+principles of ‘good regulation’, they concentrated
+on the application of these principles in making
+regulation (primary and subordinate legislation).
+There was little information on what constituted
+good regulatory practice.
+The project was initiated by CAV in 2005 and
+extended across the whole of the Department of
+Justice (DoJ) to develop and test a conceptual
+framework to provide guidance on good practice for
+regulators. Underlying this was a premise that the
+activities regulators undertake are essentially similar,
+regardless of the particular object of the regulation, so
+that it should be possible to formulate standards
+(termed ‘good practices’) against which regulators’ can
+assess current practices and identify opportunities for
+improvement.
+A conceptual framework was developed from the
+accepted principles and the literature, particularly from
+United Kingdom governmental sources. On the basis
+of that framework, an Evaluation Guide was developed
+and piloted for its workability in two regulatory
+schemes operated by Consumer Affairs Victoria.
+Modifications were made following a review of the
+pilot’s outcomes. From mid 2008 and over an
+18 month period, the framework will be rolled out
+across all regulators within the Justice portfolio.
+This paper explains the BBR Framework and the broad
+processes for its application. Readers interested in more
+detail are referred to the departmental contact noted in
+the Preface.
+Introduction
+Introduction > 01
+Better business regulation > 03
+This project is being undertaken in the context of the
+Victorian government’s commitment to improving
+regulation.
+The BBR project was initiated by Consumer Affairs
+Victoria as a way of improving the quality of its
+regulatory practice. It now also forms part of the
+Department of Justice’s effort to delivering reductions
+in regulatory burden and improving the effectiveness
+of regulation. It has been a DoJ Strategic Priority for
+the last three years.
+DoJ is focusing on regulatory improvement which
+includes the Government’s broader commitment to
+Reducing the Regulatory Burden, a
+whole–of–government approach to reducing the
+administrative burdens of regulation.
+The BBR project will encourage better regulatory
+practice and ultimately lead to better regulatory
+outcomes. In this regard, the BBR project will support
+the Reducing the Regulatory Burden initiative and
+improve the way regulators operate by highlighting
+areas for regulatory improvement.
+Better business
+regulation
+Context
+The Victorian Government announced the Reducing
+the Regulatory Burden initiative in 2006, designed to
+reduce the administrative burdens of State
+regulation. The Department of Treasury and Finance
+(DTF) has estimated that the administrative burden
+imposed by State regulation is $1.03 billion per
+annum.
+The Victorian Government’s approach is centred
+on three elements:
+1. reducing the existing administrative burden of
+regulation by 15 per cent ($154 million) by July
+2009 and 25 per cent ($256 million) by July
+2011
+2. offsetting the administrative burden of any new
+regulation by making simplifications in the
+same or related area, and
+3. undertaking reviews to identify actions to
+reduce compliance burdens, supported by
+incentive payments.
+Source: The Victorian Government 2006, Reducing the
+Regulatory Burden — The Victorian Government’s Plan to Reduce
+Red Tape, http://www.dtf.vic.gov.au, accessed 11 December
+2006.
+Reducing the
+regulatory burden
+• Targets for
+achievement
+• Financial support
+for projects
+• Measurement of
+outcomes
+Better Business
+Regulation
+Good regulatory practice
+• What does good practice
+look like?
+Processes
+• How can it be improved?
+Action Plans
+• Implementing improvement
+opportunities.
+Regulatory outcomes
+• More effective
+regulation
+• More efficient
+regulation
+BBR and reducing the regulatory burden
+Principles of good regulation
+Any exercise in evaluating regulatory practice and
+processes requires consideration of the principles of
+good regulation. These include:
+• accountability
+• transparency
+• effectiveness
+• efficiency
+• proportionality
+• flexibility, and
+• consistency1.
+For Victorian regulators the Department of Treasury
+and Finance Victorian Guide to Regulation provides
+a useful introduction to these principles. Many of the
+principles in the Victorian Guide to Regulation are
+also relevant for the day–to–day business of regulators
+when operating regulation. However, developing
+specific good practices, particularly those related to
+operating regulation are not explicitly stated and need
+to be derived or inferred from the relevant literature.
+The interpretation of ‘core’ principles can then be used
+to test the appropriateness of the standards.
+The BBR project has been undertaken in five stages
+with Stage 1 designed to answer two key questions:
+1. is it possible to develop a common framework
+for assessing regulatory performance across the
+diverse business regulators in DoJ, and if so
+2. what would a set of workable indicators of good
+practice look like?
+Stage 1 of the project focused on:
+• consideration of approaches to benchmarking
+regulatory functions in Australia and overseas
+with a view to drawing upon existing
+performance indicators and the experience of
+other regulators, and
+• developing a framework for benchmarking
+regulators and a recommended set of
+observable/measurable indicators of regulatory
+performance that:
+• is readily applicable to all business–related
+regulatory functions undertaken within DoJ
+• assists the subsequent task of identifying
+areas for improvement in DoJ regulators
+• provides guidance on the application of the
+framework and indicators, and
+• facilitates a pilot of the methodology in
+two regulatory schemes.
+Stage 1, which was completed in early 2007, resulted
+in the development of a preliminary BBR framework.
+The framework focused on the similar regulatory
+activities performed by the diverse schemes within the
+Justice Portfolio rather than on the very different
+regulatory outcomes being pursued by the various
+regulators.
+The framework established in Stage 1 was subsequently
+trialled and modified during Stage 2, the purpose of
+which was to:
+• assess the BBR evaluation framework as a
+diagnostic tool to assess regulatory performance
+• assess the associated approaches and processes
+involved in applying the BBR evaluation
+framework, and
+• identify areas that need to be taken into account
+for wider application of the BBR evaluation
+framework across CAV and other DoJ regulators.
+Stage 2 concluded that it was possible to apply a
+common framework for evaluation and assessment
+across the diverse regulators in DoJ. Importantly, this
+conceptual framework was translated into a
+comprehensive set of good practices allowing
+regulators to self-evaluate their regulatory processes.
+Stage 3 utilised the findings of the Stage 2 pilots and
+translated these into strategic action plans articulating
+the regulators response to the findings of the pilots.
+These action plans clearly outlined specific
+improvement opportunities, assigned responsibilities
+and specified timeframes for implementation. Finally,
+a regular reporting mechanism was established to
+review progress towards regulatory process
+improvements.
+04 > Better business regulation
+1 This list includes those principles most applicable to all stages of the regulatory cycle. Efficiency has been included as it is
+important for the operate stage, perhaps less so for the make and review stages, even though it does not form part of the
+Victorian Guide to Regulation. Flexibility refers to a regulator being adaptive (eg enforcement strategies, promoting compliance,
+risk assessments) to changing circumstances. Cooperation has not been included as this is an over-arching activity in the
+regulatory cycle and covered elsewhere.
+Project approach
+The BBR framework > 05
+The BBR framework
+The following sections provide an overview of this
+framework starting with a discussion, at a conceptual
+level, of the regulatory cycle.
+The framework maps generic regulatory activities
+across the life cycle of a regulatory scheme. It is broken
+into three stages—make, operate and review—and
+shows the activities that are required at each of these
+stages. Although not represented in the diagram, each
+of the 10 activities around the three stages is further
+broken down into specific tasks with good practices
+that should ideally be in place for each of the tasks.
+With many activities in the cycle performed by
+different branches or agencies, coordination of
+responsibilities becomes a large component throughout
+the regulatory cycle. Accordingly, it is represented in
+the diagram as a continuum around the cycle.
+While in concept the regulatory cycle is not new, the
+good practices developed for each of the activities
+within the regulatory cycle have not been brought
+together in this way in the extensive literature
+reviewed. By drawing on the Victorian Guide to
+Regulation, other principles of good regulation, and
+experience from other jurisdictions, the BBR project
+derived or inferred the practices to which regulators
+should adhere. In all, the BBR framework proposes
+74 good practices for the 10 regulatory activities
+around the make, operate and review stages and the
+coordination responsiblities.
+To assist with the identification of those ‘similar’
+regulatory activities, the concept of a regulatory cycle
+was developed as set out below.
+The regulatory cycle
+PRINCIPLES
+GOOD PRACTICE
+COORDINATE RESPONSIBILITIES
+R
+EV
+IE
+W
+MAKE
+OPERATE
+Review
+objectives
+of the
+governm
+ent
+intervention
+Assess
+performanceof the
+government
+intervention
+Id
+en
+tit
+y
+pr
+ob
+le
+m
+s’
+to
+be
+ad
+dr
+es
+se
+d
+by
+go
+ve
+rn
+m
+en
+t
+in
+te
+rv
+en
+tio
+n
+Desi
+gn
+go
+ve
+rnm
+en
+t
+int
+erv
+en
+tio
+n
+Plan
+implementation
+of government
+intervention
+Monitor and
+enforce
+compliance of
+regulated
+entities
+M
+an
+ag
+e
+on
+go
+ing
+reg
+ist
+rat
+ion
+/
+lic
+en
+sin
+g
+pr
+oc
+es
+s
+Educatestakeholders
+aboutgovernment
+interventionsReceive and
+respond
+to
+enquiries and
+com
+plaints
+Registerand
+license
+entities
+Life cycle of a regulatory scheme
+06 > The BBR framework
+2 The discussion in this report is designed to be inclusive and therefore the term ‘regulation’ should be interpreted in its wider
+sense to include all government regulatory instruments including primary legislation and sub–ordinate legislation (called
+‘Regulation’) rather than sub–ordinate legislation only.
+3 Regulation Task Force 2006, Rethinking Regulation: Report of the Task Force on Reducing Regulatory Burdens on Business, Report to
+the Prime Minister and the Treasurer, Canberra, January, p. 145.
+4 Department of Treasury and Finance 2005, The Victorian Guide to Regulation,
+http://www.vcec.vic.gov.au/CA256EAF001C7B21/WebObj/VictorianGuidetoRegulation/$File/Victorian%20Guide%20to%20Reg
+ulation.pdf, accessed 6 December 2006, pp. 3–1.
+5 It should be noted that the above summary is by no means a substitute for the Victorian Guide to Regulation—in fact, the
+Guide is the endorsed Government policy on developing regulation—nor is the summary intended to provide greater emphasis
+relative to those requirements not stated. Rather, the above summary ensures that concepts used in the benchmarking
+framework are kept as simple as possible. Also, while not an explicit intention, simplifying the activities involved in ‘making’
+regulation allows for greater attention to be devoted to those activities involved in ‘operating’ regulation, which is the focus of
+most DoJ regulators.
+How governments go about their core business of
+making and administering regulation2 is the key
+determinant of regulatory outcomes.3 While regulators
+may differ in role, structure and objectives, the
+regulatory cycle is common to all.
+At its most simplified, the regulatory process typically
+involves:
+• making or passage of government regulation
+(make regulation), followed by
+• interpreting, administrating and enforcing that
+regulation (operate regulation), and usually
+sometime later
+• reviewing how well that regulation is working,
+with the potential for refining, amending, or
+repealing the regulation (review regulation).
+For each of these core elements of the regulatory cycle,
+there is a range of activities that regulators or
+government must undertake.
+However, in many cases an individual regulator will
+not undertake all three stages or activities of the cycle.
+For example, legislation may be recommended and
+drafted (make regulation) by the Department
+responsible for policy advice in the relevant area, a
+statutory authority may administer (operate
+regulation) the regulatory scheme established by the
+legislation and the same Department may evaluate the
+effectiveness of the scheme after several years of
+operation (review regulation).
+Make regulation
+The Victorian Guide to Regulation sets out the required
+process for making regulation and states that
+governments should assume that regulation is
+unnecessary, unless it is clear that:
+• a problem exists
+• government action is justified, and
+• regulation is the best alternative open to the
+government.4
+In answering these questions, the Victorian Guide to
+Regulation provides detailed guidance on the activities
+that regulators must undertake when making or
+remaking regulations. Summarising the key elements
+of the Guide, the process to make regulation comprises
+the following:
+• identify objectives—identifying the purposes of
+regulatory intervention and establishing the case
+for government action
+• consider alternatives—framing options for meeting
+the identified objectives
+• assess impacts—estimating the impacts of each
+alternative scenario, and
+• consult stakeholders—engaging with interested and
+affected stakeholders to fully understand the
+regulatory environment.5
+These form the basis for the three activities that are
+required in the make stage.
+R
+EV
+IE
+W
+MAKE
+OPERATE
+The regulatory cycle
+The BBR framework > 07
+Operate regulation
+Even the best regulation will result in inefficiencies
+and poor outcomes if it is not appropriately
+administered and enforced.6
+For most regulators, the majority of their time and
+resources is dedicated to the operation of regulation.
+Indeed, for many their role almost exclusively relates
+to this. While again somewhat simplified for
+categorisation purposes, the core elements of
+‘operating regulation’ can be distilled into five distinct
+activities:
+• process development—devising systems and
+processes to manage the tasks involved in
+administering regulation
+• register and license—receiving, assessing, processing,
+issuing and maintaining registrations and licences
+• educate and promote—informing regulated parties,
+other stakeholders and the general public about
+relevant issues
+• monitor compliance—monitoring the compliance
+of regulated parties, and
+• enforce compliance—enforcing the compliance of
+regulated parties with relevant regulations.
+These are the basis for the five activities that are
+required in the operate stage.
+Note that not all regulators operate registration or
+licensing as a function in their regulatory schemes.
+However, it has been added given that it is a very
+common regulatory tool.
+Review regulation
+The Victorian Guide to Regulation states that regulation
+should be evaluated on a regular basis to ensure that it
+continues to meet its specified objectives. If the
+objectives are not being met, then consideration
+should be given to changing the regulation, or relying
+on alternative measures to achieve the desired
+outcomes.
+Whilst not providing guidance on the detail of such a
+review, it can be surmised that the review of regulation
+should:
+• assess performance—are the regulations achieving
+their objectives
+• review objectives—are the objectives for which the
+regulations were implemented still valid, and
+• consider modifications—how the regulations could
+be improved.
+As with the make and operate stages, these points are
+the basis for the two key activities required in the
+review stage.
+Coordinate responsibilities
+Regulatory functions for a specific scheme may be split
+among different branches or agencies. For example,
+such splits commonly occur between the make and
+operate stages and between the operate and review
+stages. Sometimes within the operate stage
+enforcement may be carried out by a body separate
+from the body carrying out the licensing or
+registration function. Separating responsibilities within
+the regulatory cycle may be based on a number of
+factors, such as legislative or regulatory requirements,
+operational agreements, probity or historical factors.
+Each branch or agency involved undertakes to ensure
+delivery of the regulatory processes in a manner that
+is, to the greatest extent possible, consistent and
+seamless. The framework captures these intersecting
+responsibilities and depicts it in the life cycle of a
+regulatory scheme diagram as an over-arching activity
+throughout the cycle. As such, capturing the reality
+that branches or agencies regulators are involved in
+delivering different activities associated with a
+regulatory scheme is critical to ensuring the framework
+is robust. For this reason, the concept of coordinate
+responsibilities is incorporated. The coordination is
+critical so as to:
+• clearly delineate lines of responsibility for
+regulatory activities, and
+• ensure that regulatory activities are performed
+efficiently and effectively.
+These points are the basis for the two activities
+required in coordinate responsibilities. Although not
+represented in the regulatory cycle diagram, these are
+included in the good practices tables commencing on
+page 11.
+From a holistic perspective, the BBR framework focuses
+on regulatory schemes rather than single regulators.
+This enables identification of who carries responsibility
+for the various activities, duplication of activities and
+where any responsibility gaps may occur.
+6 Independent Pricing and Regulatory Tribunal 2006, Investigation into the Burden of Regulation and Improving Regulatory
+Efficiency, www.ipart.nsw.gov.au, p. 39.
+Practices, processes and performance > 09
+Practices, processes
+and performance
+While the activities described above connect the role
+of regulators with the principles of good regulation,
+they only provide general guidance on the manner in
+which regulators should undertake their duties. They
+do not specify practices and processes that regulators
+should comply with and they do not specify standards
+by which performance can be gauged.
+By focusing on areas of commonality across the
+regulators and the regulatory schemes and in particular
+the regulatory functions, the framework allows for the
+evaluation of:
+• good practice—the quality aspects of regulatory
+activities
+• process maturity—the degree of development of
+regulatory activities, and
+• performance—the translation of inputs to outputs
+to outcomes of regulatory activities.
+Therefore, the framework links the practices to the
+conceptual model and also allows process quality,
+efficiency and effectiveness performance
+measurements to be linked back to regulatory activities
+and acknowledges the specific roles of individual
+business units within a regulatory scheme.
+PRINCIPLES
+GOOD PRACTICE
+COORDINATE RESPONSIBILITIES
+R
+EV
+IE
+W
+MAKE
+OPERATE
+Review
+objectives
+of the
+governm
+ent
+intervention
+Assess
+performanceof the
+government
+intervention
+Id
+en
+tit
+y
+pr
+ob
+le
+m
+s’
+to
+be
+ad
+dr
+es
+se
+d
+by
+go
+ve
+rn
+m
+en
+t
+in
+te
+rv
+en
+tio
+n
+Desi
+gn
+go
+ve
+rnm
+en
+t
+int
+erv
+en
+tio
+n
+Plan
+implementation
+of government
+intervention
+Monitor and
+enforce
+compliance of
+regulated
+entities
+M
+an
+ag
+e
+on
+go
+ing
+reg
+ist
+rat
+ion
+/
+lic
+en
+sin
+g
+pr
+oc
+es
+s
+Educatestakeholders
+aboutgovernment
+interventionsReceive and
+respond
+to
+enquiries and
+com
+plaints
+Registerand
+license
+entities
+Activity Evaluation
+Performance
+(inputs, outputs, outcomes)
+Process maturity
+(degree of development)
+Good practice
+(indicators of quality)
+Receive and
+respond to
+enquiries and
+complaints
+Tasks
+Levels of evaluation in BBR
+10 > Practices, processes and performance
+7 Centre for European Studies 2004, Project on Indicators of Regulatory Quality: Final Report, Bradford University/Commission for
+European Communities, http://www.bradford.ac.uk.irq, accessed 23 November 2006, p. 4.
+8 Ibid, p. 4.
+As noted above, the good practices operationalise the
+principles of good regulation and provide a set of
+standards against which current activities can be
+assessed (gap analysis) and opportunities for
+improvements identified.
+Regulatory performance—or as some call it ‘regulatory
+quality’—is a complex notion. It links the effects of a
+regulatory process with the principles of good
+regulation. As a result it comprises notions of
+efficiency, effectiveness and good governance.
+In this way, as Jacobs notes:
+[…] principles of better regulation provide a focus on
+quality that goes beyond efficiency. In fact, the
+experience of governments and international
+organizations indicates that quality is anchored to the
+notion of good governance. As such, regulatory quality
+has a normative dimension, sets goals in terms of
+governance, and is neutral to the scope and size of
+public intervention. Quality is intimately different from
+quantity. High quality regulation does not mean ‘low
+levels of regulation’, but regulation that is proportionate,
+targeted, efficient, accessible and transparent.7
+Where the conditions of good regulatory quality are
+met—namely, those articulated in the Victorian Guide
+to Regulation—regulation will become embedded in
+policy decision–making by regulators, ministers and
+stakeholders. Good quality regulation, then, can
+‘change the way organised interests, firms and citizens
+engage in the policy–making process, understand and
+accept the regulatory framework’ and promote
+regulatory legitimacy.8
+Due to the normative dimension of the principles
+espoused in the Victorian Guide to Regulation and
+similar documents, it is difficult to measure the
+extent to which a regulatory regime conforms to the
+principles. In addition, the practices against which
+quality and performance are measured might be
+emphasised or de–emphasised according to the lens
+through which they are viewed.
+The approach to develop the good practices was to
+draw on the literature relating to principles of good
+regulation, best practice governance, and best practice
+administration to derive or infer good practices for
+regulatory activity.
+The good practices provide the bridge between the
+principles of good regulation – accountability,
+transparency, effectiveness, efficiency, proportionality,
+flexibility and consistency – and regulatory activities.
+They describe how regulators should perform the tasks
+they have been allocated.
+While essentially qualitative in nature, they are able to
+be supported by evidence of conformance to or
+application of good practice, and thereby enable
+regulatory schemes to identify over time levels of
+performance improvement.
+Consideration of good practices also forms an
+important point for more detailed assessment of
+regulatory scheme performance, and ultimately
+provide guidance as to how schemes should be
+improving regulatory tasks and activities. Where
+good practices are not in place, regulators can improve
+performance by embedding the good practices into
+their operations. Together with the maturity and
+quantitative performance of regulatory activities as
+described below, the BBR framework will enable
+regulatory schemes to identify those good practices
+that have the most crucial or significant impact on
+scheme performance.
+The following table sets out the good practices
+developed for each of the activities and tasks within
+the regulatory cycle.
+Good practices
+Practices, processes and performance > 11
+Identify 'problems' to be addressed
+by Government intervention
+MAKE REGULATION
+Ascertain policy
+priorities
+Policy staff receive regular updates on policy
+objectives/priorities
+Conduct market
+scanning
+Select issue to be
+addressed
+Policy staff receive regular updates on
+developments at COAG, in other Australian and
+overseas jurisdictions
+Activity Task Good practice that relates to the task
+External scanning activities are conducted to
+identify emerging issues
+Consider consolidated data from education
+activities/enquiries/complaints/audit outcomes/
+enforcement and cross-scheme analyses
+Clearly articulate the issue/problem and the need
+for government intervention
+Assess whether government intervention is justified
+using the framework set out in the Victorian Guide
+to Regulation
+Clearly state objectives for government intervention
+prior to options being determined
+Design government intervention Develop alternatives Consider all reasonable regulatory and non-
+regulatory options (as per the Victorian Guide to
+Regulation)
+Encourage stakeholders to contribute their views
+during development of alternatives
+Consult with government agencies that have a role
+in administering/operating the proposed
+government intervention regarding the alternatives
+Demonstrate that stakeholder views have been
+considered when recommending a preferred
+alternative
+Quantify the impact of the alternatives (incl. cost-
+benefit analysis)
+Assess the alternatives in terms of their consistency
+with government policy and their effects across the
+community
+Assess the alternatives from a cost recovery
+perspective
+Evaluate alternatives
+Assess risks to regulatory outcomes for each
+alternative and analyse the targeting of resource
+needs accordingly
+Recommend preferred
+alternative
+Adopt (or recommend the adoption of) the
+alternative that was estimated to generate the
+highest net benefit
+Plan the implementation of
+government intervention
+Communicate objectives
+of intervention to
+relevant agencies
+Inform all relevant government agencies and
+stakeholders of the objectives of the intervention
+Develop an education campaign aimed at
+informing regulated entities implementing the
+intervention of the desired compliance outcomes
+MAKE REGULATION
+Develop
+administrative
+processes to enable
+implementation
+Develop or amend administrative processes to
+enable practical implementation of intervention
+including:
+a) enquiries process
+b) complaint handling process
+c) dispute resolution process
+d) licensing process
+e) compliance and enforcement process
+Activity Task Good practice that relates to the task
+Consider agency resources/capabilities in design
+of administrative processes
+Consider probity and governance requirements
+when allocating responsibility for regulatory
+activities to agencies
+Ensure that the processes developed are consistent
+with the government’s commitment to reducing
+regulatory burden
+12 > Practices, processes and performance
+Practices, processes and performance > 13
+Educate stakeholders about the
+government interventions
+OPERATE REGULATION
+Plan educational
+initiatives
+Articulate the objectives of each education/
+information initiative
+Deliver educational
+initiatives
+Review education
+initiatives
+Design education/information initiatives having
+considered and evaluated alternatives
+Activity Task Good practice that relates to the task
+Deliver education/information initiative(s) to plan
+Regularly review the information provided in
+education campaigns to ensure currency and assess
+the impact of the education campaigns
+Assess whether compliance obligations are
+conveyed simply/directly/repeatedly to relevant
+parties in a manner to ensure they understand
+their regulatory responsibilities and rights
+Report trends in education data to all branches/
+agencies involved in the government intervention
+Receive and respond to enquiries
+and complaints
+Register and license entities
+Respond to enquiries
+Resolve complaints
+Review enquiries and
+complaints data
+Process registration and
+licensing applications
+Provide the public with convenient mechanisms
+for making enquiries
+Provide accurate information in response to
+enquiries within agreed timeframes
+Provide the public with convenient mechanisms
+for making complaints
+Resolve complaint or refer complaint to appropriate
+party for resolution/escalation using established
+protocols
+Report trends in enquiries to all branches/agencies
+involved in the government intervention
+Report trends in complaints to all branches/
+agencies involved in the government intervention
+Provide convenient mechanism(s) for licence
+applicants/licensees to contact regulator and lodge
+licensing and registration applications
+Capture application and payment details promptly
+and accurately into relevant systems
+Assess applications for registrations and licences
+against the requirements of the scheme
+Consider impact of licensing decisions on third
+parties and informed them of decision to grant
+licence (where relevant)
+Communicate registration/licensing decisions
+within agreed timeframes stating reasons for
+decision
+Provide accurate information in response to
+complaints within agreed timeframes
+Explain complaints procedures to complainant
+including estimated timeframes
+14 > Practices, processes and performance
+Manage ongoing registration/
+licensing process
+OPERATE REGULATION
+Process annual returns
+and renewals
+Provide convenient processes for annual reporting/
+licence renewals
+Review registration
+and licensing data
+Maintain register of licences and registrations in
+line with government policies
+Activity Task Good practice that relates to the task
+Report trends in licensing/registration applications
+data to all branches/agencies involved in the
+government intervention
+Report trends in complaints regarding registration
+and licensing processes to agencies involved in the
+government intervention
+Analyse the costs and benefits of data requests
+made to regulated entities
+Review compliance and
+enforcement data
+Assess enforcement activity to test whether
+enforcement effort is commensurate with the
+compliance breach or potential breaches
+Report trends in compliance data to all branches/
+agencies involved in the government intervention
+Reported trends in complaints and the outcomes
+of monitoring activities to all branches/agencies
+involved in the government intervention
+Monitor and enforce compliance
+of regulated entities
+Plan monitoring and
+enforcement activities
+Implement monitoring
+plans
+Identify monitoring and enforcement activity
+priorities and objectives using risk based approach
+Use complaints data to inform development of
+monitoring and enforcement plan and assign
+resources accordingly
+Implement plans to monitor compliance of
+regulated entities
+Remediate compliance
+breaches
+Remediate non-compliant behaviour and
+compliance breaches in proportionate manner
+(compliance effort commensurate with breach)
+Sanctions and penalties are designed to achieve
+the regulatory outcome
+Reasons are given in writing at the earliest
+opportunity to the regulated entity
+Manage complaints
+regarding registration/
+licensing decisions
+Resolve disputes or complaints regarding the
+granting, denial, or revocation of a licence and
+communicate reasons for those decisions to
+relevant stakeholders
+Practices, processes and performance > 15
+Assess the performance of the
+government intervention
+Review the objectives of the
+government intervention
+REVIEW REGULATION
+Assess outcomes of
+the intervention
+Assess the extent to which the government
+intervention addressed the original problem and
+achieved the stated objectives
+Assess administrative
+performance
+associated with
+action undertaken
+Activity Task Good practice that relates to the task
+Consult stakeholders on their perceptions of the
+performance of the government intervention
+against stated objectives
+Consider compliance breaches when assessing
+effectiveness of regulatory government intervention
+Review processes and systems against the stated
+objectives of the intervention
+Assess administrative and other burdens borne by
+regulated entities in line with the government's
+commitment to reducing regulatory burden
+Recover cost of licensing/registration scheme from
+applicants as stated in objectives of the intervention
+Recommend
+modifications to
+intervention
+Assess the ongoing appropriateness of the
+identified regulatory objectives in light of actual
+performance
+Recommend the need for changes to policy or to
+regulatory intervention in light of actual
+performance and identify possible improvements
+16 > Practices, processes and performance
+Coordinate activities between
+regulatory agencies
+COORDINATE RESPONSIBILITIES
+Determine and
+formalise
+responsibilities and
+activities of agencies
+Agree respective roles and responsibilities of
+regulators, agencies and departments giving
+consideration to probity and governance issues
+Manage ongoing
+relationships
+between agencies
+Activity Task Good practice that relates to the task
+Formalise the objective, method and staff for
+managing relationships with other regulators and
+agencies
+Negotiate the budget allocation for the delivery
+of tasks including the basis for any cost
+sharing/reimbursement
+Clearly articulate the issue/problem and the need
+for government intervention
+Agree information and data to be shared between
+agencies including mechanisms for enabling data
+sharing
+Improve coordination of regulatory effort between
+agencies through:
+a) promotion of efforts to minimise the
+administrative complexity for individuals
+or businesses who are subject to regulation from
+multiple regulators
+b) inter-agency co-ordination of resourcing on
+individual cases
+c) sharing of resources
+Engage in annual corporate planning processes to
+integrate activities, priorities and resourcing of
+agencies involved in regulatory cycle
+Demonstrate risk management approach to key
+aspects of regulatory administration
+Assess delegation of decision making to ensure
+consistency with legislation and management
+directives
+Implement mechanisms to minimise risk of
+corruption, misconduct, conflict of interest,
+regulatory capture and abuse of power
+Plan corporate processes
+and activities
+Manage capacity,
+processes and
+delegations
+Coordinate and plan within
+regulatory agencies
+Practices, processes and performance > 17
+Good practices generally require their processes to be
+well documented, measured and regularly reviewed,
+according to their importance in the overall functions.
+Thus process maturity applies across many regulatory
+activities and is presented separately in the BBR
+framework. Because it does not derive specifically from
+the nature of regulation, but is an accepted good
+business practice in general, it is not presented as one
+of the good regulatory practices. Nevertheless, it is a
+practice directly related to implementing the principles
+of accountability, consistency and transparency.
+Process maturity is a way to determine the
+sophistication or level of development of processes
+across the regulatory scheme on the basis that the
+quality of regulation is likely to be higher if processes
+a formalised, documented, adhered to in practice and
+measured.
+Measurement requires a rating to establish the relative
+development and application consistency of each of
+the practices followed by the regulators to determine
+their ‘maturity’. It is adapted from the established
+principles of process maturity typically used when
+evaluating organisational processes. Accordingly,
+process maturity is evaluated to:
+• focus attention on how processes contribute to
+regulatory quality as, by definition, the processes
+being assessed are key to producing regulatory
+outcomes
+• establish a link between conduct of these
+regulatory activities and improvement
+opportunities, and
+• structure and prioritise implementation of
+improvements.
+A higher rating would be achieved the greater the
+degree or extent of documentation, measurement,
+or promotion of continuous improvement. The
+ratings are:
+Level 1—Informal and person dependant
+This is for cases where the process being performed
+is not documented or formalised. In other words, it is
+not recorded either in outline or in detail. The activity
+is person–dependent and the sequence, timing and
+result may vary during repetition, or be sacrificed
+under pressure. This requires significant supervision
+and there is no guarantee of either achieving the
+desired result or adhering to timelines. The activity is
+ad hoc, with the effectiveness of the activity is
+dependent on individuals.
+Level 2—Partially documented processes
+At this maturity level, the processes have been
+reviewed, documented and approved by the supervisor
+or the approving authority as the standard process. But
+it may be doubtful that the activity is being performed
+in all instances according its documentation. This may
+be because of process drift or a change since the
+document was drafted.
+Level 3—Fully documented processes
+At this level, there is consistency between the
+documented process and the deployed process. The
+process documented and deployed is applied at all the
+intended locations, by all supervisors and staff. There is
+also a seamless linkage to other processes wherever
+there needs to be any interaction to ensure a
+consistent level of service.
+Level 4—Level 3 plus measured processes
+The process has set measures and goals, such as
+adherence to timelines, customer satisfaction, cost,
+and the process is measured against these goals.
+Process variation is reduced through statistical
+management with corrective action able to be taken at
+the point of reference. Outcomes can be predicted with
+accuracy from organisational capability.
+Level 5—Level 4 plus continuously improvement
+At this level, the goals set for the process are analysed
+for achievements and improved regularly. The
+timelines, cost targets, satisfaction levels are achieved
+regularly and the targets are stretched using
+continuous quality improvement techniques.
+Improvements are evaluated and deployed using
+systematic methods.
+Process maturity therefore refers to the level of
+development and formalisation of the processes that
+support the regulatory activities. It plays an important
+role in managing risk as it encourages regulators to
+move away from person dependent processes, to ones
+that are well documented and understood, where
+documentation reflects practice, and where
+measurement is routinely reported and acted on.
+Regulators can improve their performance by
+consciously increasing the level of process maturity.
+Process maturity
+18 > Practices, processes and performance
+The BBR Framework also allows for performance of
+the regulatory scheme to be considered in terms of:
+• efficiency—indicators developed by considering
+the key inputs and outputs that relate to each
+regulatory activity, and
+• effectiveness—indicators developed by
+considering the overall purpose and outcomes
+of the regulatory activity.
+The project has developed a suite of potential
+performance indicators for each of the activities in the
+regulatory framework. These performance indicators
+are the third set of measures that complete the overall
+regulatory performance measurement in the BBR
+framework when combined with the process indicators
+of good practice and process maturity. In particular
+they have been designed to link to, and hence provide
+further evidence for, assessments of good practices and
+process maturity. When interpreted together, the three
+sets of indicators provide a broad and more complete
+picture of regulatory performance that includes
+assessments of operational activities (efficiency) and of
+regulatory outcomes (effectiveness). The positioning of
+the performance indicators within the BBR
+measurement framework is illustrated below.
+Development of performance
+indicators
+The development of the performance indicators
+involved the identification of indicator concepts for
+each activity, where the indicator concept posed the
+question ‘what do we need to know?’ to gauge
+performance for each activity. One or more
+performance indicators for each activity were
+developed from these indicator concepts. They are
+most informative when viewed as a suite of indicators
+and not interpreted as isolated measures. If
+performance against single indicators is relied upon
+without the balance that occurs when the indicators
+are viewed collectively, inaccurate interpretations may
+be made leading to inappropriate decision-making.
+The performance indicators are also designed so that
+directional changes provide clear and unambiguous
+interpretations of performance. This means that goals
+or targets can be assigned to each indicator once
+sufficient data has been obtained to determine the
+appropriate level.
+Where possible, the performance indicators are
+expressed in generic language that is applicable across
+regulatory schemes. Not all of the indicators will apply
+to all schemes—for example, if a scheme does not
+include licensing provisions then the licensing related
+indicators would not apply. For some schemes it may
+be helpful to tailor the language to reflect that
+customarily used within that scheme.
+Overall, the performance indicators reflect the nature
+of the activities within each of the make, operate and
+review stages and coordinate responsibilities. It should
+also be noted that the performance indicators, as well
+as the good practices and process maturity measures,
+can be used for comparing regulatory performance
+within a specific scheme over a time and also across
+regulatory schemes.
+However, the performance indicators even when
+combined with the good practices and process
+maturity measures do not provide all the management
+information that may be required by those managing
+regulatory activities and tasks. There are many other
+pieces of information relating to operational detail that
+are important for management to access when making
+decisions. Therefore, it is intended that managers will
+seek more information than is represented by the
+performance indicators. For example, those managing
+a licensing process should be aware of the number of
+licence applications received. This data may well
+convey crucial information about the licensing
+intervention and inform decisions about the resources
+required to process the applications, even though the
+number of applications received does not in itself
+constitute performance data.
+Performance
+measurement
+Regulatory
+objective
+Regulatory
+performance
+Performance
+measurement
+Process
+maturity
+Good
+practice
+Performance
+indicators
+Process
+indicators
+Regulatory
+activities
+Standard regulatory approaches
+BBR approach
+Measuring regulatory performance in the
+BBR Framework
+Making it work > 19
+The BBR framework can be applied in two modes:
+a) A ‘one-off’ evaluation to assess a regulator’s
+current practice against the standard of the good
+practices (gap analysis) to identify improvements.
+There is the option of repeating this periodically
+at medium to long term intervals, say every three
+years. Key steps in this type of application are:
+• gap analysis
+• interpret and understand reasons for gaps
+• identify priority areas for improvement
+• design and plan an improvement strategy
+• implement the improvement strategy
+• monitor results and review outcomes.
+b) Ongoing monitoring of performance using the
+generic performance measures in terms of
+efficiency and effectiveness. Key steps in this
+type of application are:
+• adapt BBR generic performance measures
+to the specific regulator or scheme
+• determine data needs and availability
+(eg is current data adequate for purposes?)
+• collect data
+• estimate measures
+• interpret measures and trends
+• identify particular activities for further
+assessment and improvement (eg measures
+may indicate problems areas but not the
+causes, that may require much more detailed
+and specific analysis).
+Both of these modes of application are through a self-
+evaluation process. Self evaluation can be a useful
+vehicle for accurate identification of strengths and
+opportunities for improvement. It is also a learning
+opportunity supporting managers to better understand
+and assess the practices and processes within their area
+of accountability and should be seen as a starting point
+for continuous improvement. The BBR framework is
+designed to be implemented using a self evaluation
+process with facilitated workshops to develop action
+plans for improving regulatory performance.
+The BBR framework was piloted by Consumer Affairs
+Victoria on two regulatory schemes using this
+methodology for the purposes of:
+• assessing the evaluation framework as a
+diagnostic tool to measure regulatory
+performance
+• assessing the associated approaches and processes
+involved in its application, and
+• identifying areas that need to be taken into
+account for wider application of the BBR
+framework.
+The pilot confirmed that the BBR framework has the
+capacity to identify issues and opportunities for
+improvement. The challenge will be to tailor and
+incorporate further improvements and examine
+opportunities to embed a continuous improvement
+culture amongst different regulators.
+Making it work
+CAV research and discussion papers > 21
+1 Consumer Education in Schools: Background Report,
+November 2003
+2 What do we Mean by ‘Vulnerable’ and
+‘Disadvantaged’ Consumers?, March 2004
+3 Information Provision and Education Strategies,
+March 2006
+4 Social Marketing and Consumer Policy, March 2006
+5 Designing Quality Rating Schemes for Service
+Providers, March 2006
+6 Regulating the Cost of Credit, March 2006
+7 Consumer Advocacy in Victoria, March 2006
+8 Choosing Between General and Industry-specific
+Regulation, November 2006
+9 Using Licensing to Protect Consumers’ Interests,
+November 2006
+10 Consumer Detriment in Victoria: a Survey of its
+Nature, Costs and Implications, October 2006
+11 Stopping Rogue Traders, November 2006
+12 Unfair Contract Terms in Victoria: Research into
+their Extent, Nature, Cost and Implications,
+October 2007
+13 Institutional Arrangements for Consumer Protection
+Agencies, April 2008
+14 Better Business Regulation, May 2008
+Consumer Affairs Victoria
+research and discussion
+papers
+May 2008
+C-68-01-1090
+Consumer Affairs Victoria
+Victorian Consumer & Business Centre
+113 Exhibition Street
+Melbourne 3000
+Telephone 1300 55 81 81 (local call charge)
+Email consumer@justice.vic.gov.au
+Website www.consumer.vic.gov.au
+Regional offices are located in Ballarat,
+Bendigo, Geelong, Morwell, Mildura,
+Wangaratta and Warrnambool.
+ 
+19:29:08.836 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:08.849 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/1
+1 > Accept: application/json
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+19:29:09.188 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 672
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"80-EQ3QtL3rKi5ZEzPYslbLmV0qVRU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k%2F0ST8sxyGUmkd9lbcikw4n3Ke0VKtm7kAsLQNGHg5qt2BV29ns%2FxlbQt8wF6KcpcLuX6VAxyJ10mZINo9M1UTO8i2hjMppv3kOwEm56orjanLB%2FGfiggMga9g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf88b945aac-MEL
+{"id":"1","email":"khushboo.joshi@reqres.in","first_name":"Khushboo","last_name":"Joshi","updatedAt":"2023-05-26T09:29:09.622Z"}
+
+19:29:09.208 [pool-1-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:29:09.227 [pool-1-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 715
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7c-qbS7Vn6CPpQ1BsDq+q7XBUWS2lI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zePTHe2Xw1BU%2Bo8teuz6v50cQovGu1gYriJFSi8u6gbawEsIkPWDZ%2BQVKYdBWtT17klIQ6Qw5jpCXGgMmUaupPBHQpVixT4nU4OiRiM60Gvjz8AL5CMEM8pHEQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf88f6e5aa4-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"Kalpak","last_name":"Joshi","updatedAt":"2023-05-26T09:29:09.624Z"}
+
+19:29:09.230 [pool-1-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/register
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"username":"eve.holt@reqres.in","email":"eve.holt@reqres.in","password":"cityslicka"}
+
+19:29:09.232 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 709
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"7a-o4NCCsn24Q2U6t+18N8fmM0P4d4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LPry8glgGNy4qqMXnE%2BS9eZThI4QFnY4xSsqwJOcOztk9dFYs6x8oV%2BZBb8Wz%2Bowac%2BqiLNg29%2FJ7JCWe%2FDRMwj%2B2xi0wy1Hv6%2FV%2BSHVoya9qm2HoaENTArlgw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf89e2a1f66-MEL
+{"id":"3","email":"aarav.joshi@reqres.in","first_name":"Aarav","last_name":"Joshi","updatedAt":"2023-05-26T09:29:09.630Z"}
+
+19:29:09.321 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 696
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"92-3sdW/OrgSgkNJiwzrHsS8d2wWrY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BquHg3Z2bM28Z%2BFx1vlrEYuP9loLVUUDpAaVn0K1d%2B%2FRjfFkogiA6U1iMgXAyBh9veP9rncitsDCg3yK5A5LCt5vGI54Vc2VhIjhLy0I0%2F05xMPUrYjs4sf8fw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdf95f335a98-MEL
+{"id":"2","email":"kalpak.joshi@reqres.in","first_name":"The Kalpak","last_name":"Whose Lastname is Joshi","updatedAt":"2023-05-26T09:29:09.755Z"}
+
+19:29:09.542 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 691
+1 < 204
+1 < Date: Fri, 26 May 2023 09:29:10 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nEK1jhXeTjkHTa9Y%2ByyKzwoPF0Vv7wnNP7kX5haloU75p19MjRVWpHkxSo5QDdqc9RdvfaIibbV3JS%2BNjrx%2FgtRLqDHiSSPkJzRCVXvRPL2HQRRhGCjB%2FZKGQg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdfabd4a299d-MEL
+
+
+19:29:09.951 [pool-1-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 718
+1 < 200
+1 < Date: Fri, 26 May 2023 09:29:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 36
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"24-4iP0za1geN2he+ohu8F0FhCjLks"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=daroWUSk2Zgd4%2BewzSh9e0LHYSnzc7z9NEOMqXeKXzzqbQBX9kgzF4jHteQOw4mLLfpSJG2PBWnvlh6GcW6iCRP8Rvrz6BX4hBAbHcZVGn9QxISrbf5KO7BXTA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7cd4fdfd59492b38-MEL
+{"id":4,"token":"QpwL5tke4Pnpja7X4"}
+
+19:29:10.642 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (1 remaining) classpath:ReqResApp/apiTest/pdf.feature
+19:29:11.579 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:ReqResApp/apiTest/users.feature

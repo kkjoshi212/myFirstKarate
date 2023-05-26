@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "username": "eve.holt@reqres.in",
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+      },
+      {
+        "username": "tracey.ramos@reqres.in",
+        "email": "tracey.ramos@reqres.in",
+        "password": "cityslicka"
+      },
+      {
+        "username": "charles.morris@reqres.in",
+        "email": "charles.morris@reqres.in",
+        "password": "cityslicka"
+      }
+    ]
+  }

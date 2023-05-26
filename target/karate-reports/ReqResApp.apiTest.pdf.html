@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"cfa6972d-bcc5-4d3b-9a24-ec5285c3b046",karate_version:"1.4.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>ReqResApp.apiTest.pdf</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-05-26 07:29:08 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:6]"><span>[1:6]</span> <span>Extract text from a PDF</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">ReqResApp/apiTest/pdf.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Extract Text from PDF using PDFBox</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:6]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:6]</span>
+                <span class="scenario-name">Extract text from a PDF</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2480</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>def PDFTextExtractor = Java.type(&#39;com.example.PDFTextExtractor&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">19:29:06.333 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>def pdfPath = &#39;src/test/java/ReqResApp/testData/testFile.pdf&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>def extractedText = PDFTextExtractor.extractText(pdfPath)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2441</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print extractedText</span>
+      </div>
+    </div>
+    <div class="time-cell passed">18</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.10">19:29:08.819 [print] Better business
+regulation
+Research Paper No. 14 May 2008
+Disclaimer
+Because this publication avoids the use of legal language, information about the
+law may have been summarised or expressed in general statements. This
+information should not be relied upon as a substitute for professional legal
+advice or reference to the actual legislation.
+© Copyright State of Victoria 2008
+This publication is copyright. No part may be reproduced by any process
+except in accordance with the provisions of the Copyright Act 1968. For advice
+on how to reproduce any material from this publication contact Consumer
+Affairs Victoria.
+Published by Consumer Affairs Victoria
+121 Exhibition Street Melbourne Victoria 3000.
+Preface &gt; i
+Preface
+Consumer Affairs Victoria (CAV) is a significant market
+place regulator. It administers both economy-wide and
+industry-specific legislation covering thousands of
+providers of goods and services. The agency combines
+both policy and regulation making functions with
+regulation implementation functions. CAV has been
+committed to achieving best practice in performing
+its regulatory roles.
+There has been much discussion of the need to
+improve the processes of making regulation in recent
+years, but much less focus on improving the practices
+of regulators in implementing regulation. Experience
+suggests to me that often the more significant gains
+can be achieved by improving what regulators do
+rather than tinkering with what is on the statute
+books.
+This view prompted CAV to initiate a Better Business
+Regulation project, the simple aim of which was to
+improve CAV’s regulatory practices. Subsequently, the
+Victorian Government established a Regulation
+Burden Reduction initiative, which further emphasised
+the need to improve regulatory quality. CAV is a
+portfolio unit of the Department of Justice in Victoria
+and the Department embraced both the Better
+Business Regulation and Regulation Burden Reduction
+initiatives as key priorities in 2006-2008.
+This paper describes the Better Business Regulation
+framework developed by CAV and the Department of
+Justice. It is hoped that other regulators will be able to
+benefit from the work we have done by applying the
+framework to their own circumstances and ultimately
+effecting improvements to their regulation.
+I would like to acknowledge the work done by Rod
+Overall (Overall Consulting) and the Allen Consulting
+Group who have greatly assisted CAV in developing
+the Better Business Regulation framework. The
+combination of experience of the consultants and staff
+involved in the project has, I believe, produced a
+practical and innovative approach to assist in the
+promotion of regulatory reform.
+Consumer Affairs Victoria would welcome any
+comments on the Better Business Regulation
+framework. These may be directed to:
+Frank Rossi
+Project Manager
+Better Business Regulation
+Tel: 61 3 8684 6453
+Email: frank.rossi@justice.vic.gov.au
+Dr David Cousins
+Director
+Consumer Affairs Victoria
+Executive Director Consumer Affairs,
+Department of Justice
+Preface i
+Introduction 01
+Better business regulation 03
+Context 03
+Project approach 04
+The BBR framework 05
+The regulatory cycle 05
+Practices, processes and performance 09
+Good practices 10
+Process maturity 17
+Performance measurement 18
+Making it work 19
+Consumer Affairs Victoria research and
+discussion papers 21
+Contents
+The objective of the Better Business Regulation (BBR)
+project is to improve the way regulators operate by
+developing a tool (the BBR Framework) that assists in
+evaluating performance, identifying opportunities for
+improvement and developing measures to monitor
+performance over time.
+BBR originated in a search by Consumer Affairs
+Victoria (CAV) to identify ‘good practice’ in its
+regulatory activities. An extensive literature search
+revealed that although there are widely accepted
+principles of ‘good regulation’, they concentrated
+on the application of these principles in making
+regulation (primary and subordinate legislation).
+There was little information on what constituted
+good regulatory practice.
+The project was initiated by CAV in 2005 and
+extended across the whole of the Department of
+Justice (DoJ) to develop and test a conceptual
+framework to provide guidance on good practice for
+regulators. Underlying this was a premise that the
+activities regulators undertake are essentially similar,
+regardless of the particular object of the regulation, so
+that it should be possible to formulate standards
+(termed ‘good practices’) against which regulators’ can
+assess current practices and identify opportunities for
+improvement.
+A conceptual framework was developed from the
+accepted principles and the literature, particularly from
+United Kingdom governmental sources. On the basis
+of that framework, an Evaluation Guide was developed
+and piloted for its workability in two regulatory
+schemes operated by Consumer Affairs Victoria.
+Modifications were made following a review of the
+pilot’s outcomes. From mid 2008 and over an
+18 month period, the framework will be rolled out
+across all regulators within the Justice portfolio.
+This paper explains the BBR Framework and the broad
+processes for its application. Readers interested in more
+detail are referred to the departmental contact noted in
+the Preface.
+Introduction
+Introduction &gt; 01
+Better business regulation &gt; 03
+This project is being undertaken in the context of the
+Victorian government’s commitment to improving
+regulation.
+The BBR project was initiated by Consumer Affairs
+Victoria as a way of improving the quality of its
+regulatory practice. It now also forms part of the
+Department of Justice’s effort to delivering reductions
+in regulatory burden and improving the effectiveness
+of regulation. It has been a DoJ Strategic Priority for
+the last three years.
+DoJ is focusing on regulatory improvement which
+includes the Government’s broader commitment to
+Reducing the Regulatory Burden, a
+whole–of–government approach to reducing the
+administrative burdens of regulation.
+The BBR project will encourage better regulatory
+practice and ultimately lead to better regulatory
+outcomes. In this regard, the BBR project will support
+the Reducing the Regulatory Burden initiative and
+improve the way regulators operate by highlighting
+areas for regulatory improvement.
+Better business
+regulation
+Context
+The Victorian Government announced the Reducing
+the Regulatory Burden initiative in 2006, designed to
+reduce the administrative burdens of State
+regulation. The Department of Treasury and Finance
+(DTF) has estimated that the administrative burden
+imposed by State regulation is $1.03 billion per
+annum.
+The Victorian Government’s approach is centred
+on three elements:
+1. reducing the existing administrative burden of
+regulation by 15 per cent ($154 million) by July
+2009 and 25 per cent ($256 million) by July
+2011
+2. offsetting the administrative burden of any new
+regulation by making simplifications in the
+same or related area, and
+3. undertaking reviews to identify actions to
+reduce compliance burdens, supported by
+incentive payments.
+Source: The Victorian Government 2006, Reducing the
+Regulatory Burden — The Victorian Government’s Plan to Reduce
+Red Tape, http://www.dtf.vic.gov.au, accessed 11 December
+2006.
+Reducing the
+regulatory burden
+• Targets for
+achievement
+• Financial support
+for projects
+• Measurement of
+outcomes
+Better Business
+Regulation
+Good regulatory practice
+• What does good practice
+look like?
+Processes
+• How can it be improved?
+Action Plans
+• Implementing improvement
+opportunities.
+Regulatory outcomes
+• More effective
+regulation
+• More efficient
+regulation
+BBR and reducing the regulatory burden
+Principles of good regulation
+Any exercise in evaluating regulatory practice and
+processes requires consideration of the principles of
+good regulation. These include:
+• accountability
+• transparency
+• effectiveness
+• efficiency
+• proportionality
+• flexibility, and
+• consistency1.
+For Victorian regulators the Department of Treasury
+and Finance Victorian Guide to Regulation provides
+a useful introduction to these principles. Many of the
+principles in the Victorian Guide to Regulation are
+also relevant for the day–to–day business of regulators
+when operating regulation. However, developing
+specific good practices, particularly those related to
+operating regulation are not explicitly stated and need
+to be derived or inferred from the relevant literature.
+The interpretation of ‘core’ principles can then be used
+to test the appropriateness of the standards.
+The BBR project has been undertaken in five stages
+with Stage 1 designed to answer two key questions:
+1. is it possible to develop a common framework
+for assessing regulatory performance across the
+diverse business regulators in DoJ, and if so
+2. what would a set of workable indicators of good
+practice look like?
+Stage 1 of the project focused on:
+• consideration of approaches to benchmarking
+regulatory functions in Australia and overseas
+with a view to drawing upon existing
+performance indicators and the experience of
+other regulators, and
+• developing a framework for benchmarking
+regulators and a recommended set of
+observable/measurable indicators of regulatory
+performance that:
+• is readily applicable to all business–related
+regulatory functions undertaken within DoJ
+• assists the subsequent task of identifying
+areas for improvement in DoJ regulators
+• provides guidance on the application of the
+framework and indicators, and
+• facilitates a pilot of the methodology in
+two regulatory schemes.
+Stage 1, which was completed in early 2007, resulted
+in the development of a preliminary BBR framework.
+The framework focused on the similar regulatory
+activities performed by the diverse schemes within the
+Justice Portfolio rather than on the very different
+regulatory outcomes being pursued by the various
+regulators.
+The framework established in Stage 1 was subsequently
+trialled and modified during Stage 2, the purpose of
+which was to:
+• assess the BBR evaluation framework as a
+diagnostic tool to assess regulatory performance
+• assess the associated approaches and processes
+involved in applying the BBR evaluation
+framework, and
+• identify areas that need to be taken into account
+for wider application of the BBR evaluation
+framework across CAV and other DoJ regulators.
+Stage 2 concluded that it was possible to apply a
+common framework for evaluation and assessment
+across the diverse regulators in DoJ. Importantly, this
+conceptual framework was translated into a
+comprehensive set of good practices allowing
+regulators to self-evaluate their regulatory processes.
+Stage 3 utilised the findings of the Stage 2 pilots and
+translated these into strategic action plans articulating
+the regulators response to the findings of the pilots.
+These action plans clearly outlined specific
+improvement opportunities, assigned responsibilities
+and specified timeframes for implementation. Finally,
+a regular reporting mechanism was established to
+review progress towards regulatory process
+improvements.
+04 &gt; Better business regulation
+1 This list includes those principles most applicable to all stages of the regulatory cycle. Efficiency has been included as it is
+important for the operate stage, perhaps less so for the make and review stages, even though it does not form part of the
+Victorian Guide to Regulation. Flexibility refers to a regulator being adaptive (eg enforcement strategies, promoting compliance,
+risk assessments) to changing circumstances. Cooperation has not been included as this is an over-arching activity in the
+regulatory cycle and covered elsewhere.
+Project approach
+The BBR framework &gt; 05
+The BBR framework
+The following sections provide an overview of this
+framework starting with a discussion, at a conceptual
+level, of the regulatory cycle.
+The framework maps generic regulatory activities
+across the life cycle of a regulatory scheme. It is broken
+into three stages—make, operate and review—and
+shows the activities that are required at each of these
+stages. Although not represented in the diagram, each
+of the 10 activities around the three stages is further
+broken down into specific tasks with good practices
+that should ideally be in place for each of the tasks.
+With many activities in the cycle performed by
+different branches or agencies, coordination of
+responsibilities becomes a large component throughout
+the regulatory cycle. Accordingly, it is represented in
+the diagram as a continuum around the cycle.
+While in concept the regulatory cycle is not new, the
+good practices developed for each of the activities
+within the regulatory cycle have not been brought
+together in this way in the extensive literature
+reviewed. By drawing on the Victorian Guide to
+Regulation, other principles of good regulation, and
+experience from other jurisdictions, the BBR project
+derived or inferred the practices to which regulators
+should adhere. In all, the BBR framework proposes
+74 good practices for the 10 regulatory activities
+around the make, operate and review stages and the
+coordination responsiblities.
+To assist with the identification of those ‘similar’
+regulatory activities, the concept of a regulatory cycle
+was developed as set out below.
+The regulatory cycle
+PRINCIPLES
+GOOD PRACTICE
+COORDINATE RESPONSIBILITIES
+R
+EV
+IE
+W
+MAKE
+OPERATE
+Review
+objectives
+of the
+governm
+ent
+intervention
+Assess
+performanceof the
+government
+intervention
+Id
+en
+tit
+y
+pr
+ob
+le
+m
+s’
+to
+be
+ad
+dr
+es
+se
+d
+by
+go
+ve
+rn
+m
+en
+t
+in
+te
+rv
+en
+tio
+n
+Desi
+gn
+go
+ve
+rnm
+en
+t
+int
+erv
+en
+tio
+n
+Plan
+implementation
+of government
+intervention
+Monitor and
+enforce
+compliance of
+regulated
+entities
+M
+an
+ag
+e
+on
+go
+ing
+reg
+ist
+rat
+ion
+/
+lic
+en
+sin
+g
+pr
+oc
+es
+s
+Educatestakeholders
+aboutgovernment
+interventionsReceive and
+respond
+to
+enquiries and
+com
+plaints
+Registerand
+license
+entities
+Life cycle of a regulatory scheme
+06 &gt; The BBR framework
+2 The discussion in this report is designed to be inclusive and therefore the term ‘regulation’ should be interpreted in its wider
+sense to include all government regulatory instruments including primary legislation and sub–ordinate legislation (called
+‘Regulation’) rather than sub–ordinate legislation only.
+3 Regulation Task Force 2006, Rethinking Regulation: Report of the Task Force on Reducing Regulatory Burdens on Business, Report to
+the Prime Minister and the Treasurer, Canberra, January, p. 145.
+4 Department of Treasury and Finance 2005, The Victorian Guide to Regulation,
+http://www.vcec.vic.gov.au/CA256EAF001C7B21/WebObj/VictorianGuidetoRegulation/$File/Victorian%20Guide%20to%20Reg
+ulation.pdf, accessed 6 December 2006, pp. 3–1.
+5 It should be noted that the above summary is by no means a substitute for the Victorian Guide to Regulation—in fact, the
+Guide is the endorsed Government policy on developing regulation—nor is the summary intended to provide greater emphasis
+relative to those requirements not stated. Rather, the above summary ensures that concepts used in the benchmarking
+framework are kept as simple as possible. Also, while not an explicit intention, simplifying the activities involved in ‘making’
+regulation allows for greater attention to be devoted to those activities involved in ‘operating’ regulation, which is the focus of
+most DoJ regulators.
+How governments go about their core business of
+making and administering regulation2 is the key
+determinant of regulatory outcomes.3 While regulators
+may differ in role, structure and objectives, the
+regulatory cycle is common to all.
+At its most simplified, the regulatory process typically
+involves:
+• making or passage of government regulation
+(make regulation), followed by
+• interpreting, administrating and enforcing that
+regulation (operate regulation), and usually
+sometime later
+• reviewing how well that regulation is working,
+with the potential for refining, amending, or
+repealing the regulation (review regulation).
+For each of these core elements of the regulatory cycle,
+there is a range of activities that regulators or
+government must undertake.
+However, in many cases an individual regulator will
+not undertake all three stages or activities of the cycle.
+For example, legislation may be recommended and
+drafted (make regulation) by the Department
+responsible for policy advice in the relevant area, a
+statutory authority may administer (operate
+regulation) the regulatory scheme established by the
+legislation and the same Department may evaluate the
+effectiveness of the scheme after several years of
+operation (review regulation).
+Make regulation
+The Victorian Guide to Regulation sets out the required
+process for making regulation and states that
+governments should assume that regulation is
+unnecessary, unless it is clear that:
+• a problem exists
+• government action is justified, and
+• regulation is the best alternative open to the
+government.4
+In answering these questions, the Victorian Guide to
+Regulation provides detailed guidance on the activities
+that regulators must undertake when making or
+remaking regulations. Summarising the key elements
+of the Guide, the process to make regulation comprises
+the following:
+• identify objectives—identifying the purposes of
+regulatory intervention and establishing the case
+for government action
+• consider alternatives—framing options for meeting
+the identified objectives
+• assess impacts—estimating the impacts of each
+alternative scenario, and
+• consult stakeholders—engaging with interested and
+affected stakeholders to fully understand the
+regulatory environment.5
+These form the basis for the three activities that are
+required in the make stage.
+R
+EV
+IE
+W
+MAKE
+OPERATE
+The regulatory cycle
+The BBR framework &gt; 07
+Operate regulation
+Even the best regulation will result in inefficiencies
+and poor outcomes if it is not appropriately
+administered and enforced.6
+For most regulators, the majority of their time and
+resources is dedicated to the operation of regulation.
+Indeed, for many their role almost exclusively relates
+to this. While again somewhat simplified for
+categorisation purposes, the core elements of
+‘operating regulation’ can be distilled into five distinct
+activities:
+• process development—devising systems and
+processes to manage the tasks involved in
+administering regulation
+• register and license—receiving, assessing, processing,
+issuing and maintaining registrations and licences
+• educate and promote—informing regulated parties,
+other stakeholders and the general public about
+relevant issues
+• monitor compliance—monitoring the compliance
+of regulated parties, and
+• enforce compliance—enforcing the compliance of
+regulated parties with relevant regulations.
+These are the basis for the five activities that are
+required in the operate stage.
+Note that not all regulators operate registration or
+licensing as a function in their regulatory schemes.
+However, it has been added given that it is a very
+common regulatory tool.
+Review regulation
+The Victorian Guide to Regulation states that regulation
+should be evaluated on a regular basis to ensure that it
+continues to meet its specified objectives. If the
+objectives are not being met, then consideration
+should be given to changing the regulation, or relying
+on alternative measures to achieve the desired
+outcomes.
+Whilst not providing guidance on the detail of such a
+review, it can be surmised that the review of regulation
+should:
+• assess performance—are the regulations achieving
+their objectives
+• review objectives—are the objectives for which the
+regulations were implemented still valid, and
+• consider modifications—how the regulations could
+be improved.
+As with the make and operate stages, these points are
+the basis for the two key activities required in the
+review stage.
+Coordinate responsibilities
+Regulatory functions for a specific scheme may be split
+among different branches or agencies. For example,
+such splits commonly occur between the make and
+operate stages and between the operate and review
+stages. Sometimes within the operate stage
+enforcement may be carried out by a body separate
+from the body carrying out the licensing or
+registration function. Separating responsibilities within
+the regulatory cycle may be based on a number of
+factors, such as legislative or regulatory requirements,
+operational agreements, probity or historical factors.
+Each branch or agency involved undertakes to ensure
+delivery of the regulatory processes in a manner that
+is, to the greatest extent possible, consistent and
+seamless. The framework captures these intersecting
+responsibilities and depicts it in the life cycle of a
+regulatory scheme diagram as an over-arching activity
+throughout the cycle. As such, capturing the reality
+that branches or agencies regulators are involved in
+delivering different activities associated with a
+regulatory scheme is critical to ensuring the framework
+is robust. For this reason, the concept of coordinate
+responsibilities is incorporated. The coordination is
+critical so as to:
+• clearly delineate lines of responsibility for
+regulatory activities, and
+• ensure that regulatory activities are performed
+efficiently and effectively.
+These points are the basis for the two activities
+required in coordinate responsibilities. Although not
+represented in the regulatory cycle diagram, these are
+included in the good practices tables commencing on
+page 11.
+From a holistic perspective, the BBR framework focuses
+on regulatory schemes rather than single regulators.
+This enables identification of who carries responsibility
+for the various activities, duplication of activities and
+where any responsibility gaps may occur.
+6 Independent Pricing and Regulatory Tribunal 2006, Investigation into the Burden of Regulation and Improving Regulatory
+Efficiency, www.ipart.nsw.gov.au, p. 39.
+Practices, processes and performance &gt; 09
+Practices, processes
+and performance
+While the activities described above connect the role
+of regulators with the principles of good regulation,
+they only provide general guidance on the manner in
+which regulators should undertake their duties. They
+do not specify practices and processes that regulators
+should comply with and they do not specify standards
+by which performance can be gauged.
+By focusing on areas of commonality across the
+regulators and the regulatory schemes and in particular
+the regulatory functions, the framework allows for the
+evaluation of:
+• good practice—the quality aspects of regulatory
+activities
+• process maturity—the degree of development of
+regulatory activities, and
+• performance—the translation of inputs to outputs
+to outcomes of regulatory activities.
+Therefore, the framework links the practices to the
+conceptual model and also allows process quality,
+efficiency and effectiveness performance
+measurements to be linked back to regulatory activities
+and acknowledges the specific roles of individual
+business units within a regulatory scheme.
+PRINCIPLES
+GOOD PRACTICE
+COORDINATE RESPONSIBILITIES
+R
+EV
+IE
+W
+MAKE
+OPERATE
+Review
+objectives
+of the
+governm
+ent
+intervention
+Assess
+performanceof the
+government
+intervention
+Id
+en
+tit
+y
+pr
+ob
+le
+m
+s’
+to
+be
+ad
+dr
+es
+se
+d
+by
+go
+ve
+rn
+m
+en
+t
+in
+te
+rv
+en
+tio
+n
+Desi
+gn
+go
+ve
+rnm
+en
+t
+int
+erv
+en
+tio
+n
+Plan
+implementation
+of government
+intervention
+Monitor and
+enforce
+compliance of
+regulated
+entities
+M
+an
+ag
+e
+on
+go
+ing
+reg
+ist
+rat
+ion
+/
+lic
+en
+sin
+g
+pr
+oc
+es
+s
+Educatestakeholders
+aboutgovernment
+interventionsReceive and
+respond
+to
+enquiries and
+com
+plaints
+Registerand
+license
+entities
+Activity Evaluation
+Performance
+(inputs, outputs, outcomes)
+Process maturity
+(degree of development)
+Good practice
+(indicators of quality)
+Receive and
+respond to
+enquiries and
+complaints
+Tasks
+Levels of evaluation in BBR
+10 &gt; Practices, processes and performance
+7 Centre for European Studies 2004, Project on Indicators of Regulatory Quality: Final Report, Bradford University/Commission for
+European Communities, http://www.bradford.ac.uk.irq, accessed 23 November 2006, p. 4.
+8 Ibid, p. 4.
+As noted above, the good practices operationalise the
+principles of good regulation and provide a set of
+standards against which current activities can be
+assessed (gap analysis) and opportunities for
+improvements identified.
+Regulatory performance—or as some call it ‘regulatory
+quality’—is a complex notion. It links the effects of a
+regulatory process with the principles of good
+regulation. As a result it comprises notions of
+efficiency, effectiveness and good governance.
+In this way, as Jacobs notes:
+[…] principles of better regulation provide a focus on
+quality that goes beyond efficiency. In fact, the
+experience of governments and international
+organizations indicates that quality is anchored to the
+notion of good governance. As such, regulatory quality
+has a normative dimension, sets goals in terms of
+governance, and is neutral to the scope and size of
+public intervention. Quality is intimately different from
+quantity. High quality regulation does not mean ‘low
+levels of regulation’, but regulation that is proportionate,
+targeted, efficient, accessible and transparent.7
+Where the conditions of good regulatory quality are
+met—namely, those articulated in the Victorian Guide
+to Regulation—regulation will become embedded in
+policy decision–making by regulators, ministers and
+stakeholders. Good quality regulation, then, can
+‘change the way organised interests, firms and citizens
+engage in the policy–making process, understand and
+accept the regulatory framework’ and promote
+regulatory legitimacy.8
+Due to the normative dimension of the principles
+espoused in the Victorian Guide to Regulation and
+similar documents, it is difficult to measure the
+extent to which a regulatory regime conforms to the
+principles. In addition, the practices against which
+quality and performance are measured might be
+emphasised or de–emphasised according to the lens
+through which they are viewed.
+The approach to develop the good practices was to
+draw on the literature relating to principles of good
+regulation, best practice governance, and best practice
+administration to derive or infer good practices for
+regulatory activity.
+The good practices provide the bridge between the
+principles of good regulation – accountability,
+transparency, effectiveness, efficiency, proportionality,
+flexibility and consistency – and regulatory activities.
+They describe how regulators should perform the tasks
+they have been allocated.
+While essentially qualitative in nature, they are able to
+be supported by evidence of conformance to or
+application of good practice, and thereby enable
+regulatory schemes to identify over time levels of
+performance improvement.
+Consideration of good practices also forms an
+important point for more detailed assessment of
+regulatory scheme performance, and ultimately
+provide guidance as to how schemes should be
+improving regulatory tasks and activities. Where
+good practices are not in place, regulators can improve
+performance by embedding the good practices into
+their operations. Together with the maturity and
+quantitative performance of regulatory activities as
+described below, the BBR framework will enable
+regulatory schemes to identify those good practices
+that have the most crucial or significant impact on
+scheme performance.
+The following table sets out the good practices
+developed for each of the activities and tasks within
+the regulatory cycle.
+Good practices
+Practices, processes and performance &gt; 11
+Identify &#39;problems&#39; to be addressed
+by Government intervention
+MAKE REGULATION
+Ascertain policy
+priorities
+Policy staff receive regular updates on policy
+objectives/priorities
+Conduct market
+scanning
+Select issue to be
+addressed
+Policy staff receive regular updates on
+developments at COAG, in other Australian and
+overseas jurisdictions
+Activity Task Good practice that relates to the task
+External scanning activities are conducted to
+identify emerging issues
+Consider consolidated data from education
+activities/enquiries/complaints/audit outcomes/
+enforcement and cross-scheme analyses
+Clearly articulate the issue/problem and the need
+for government intervention
+Assess whether government intervention is justified
+using the framework set out in the Victorian Guide
+to Regulation
+Clearly state objectives for government intervention
+prior to options being determined
+Design government intervention Develop alternatives Consider all reasonable regulatory and non-
+regulatory options (as per the Victorian Guide to
+Regulation)
+Encourage stakeholders to contribute their views
+during development of alternatives
+Consult with government agencies that have a role
+in administering/operating the proposed
+government intervention regarding the alternatives
+Demonstrate that stakeholder views have been
+considered when recommending a preferred
+alternative
+Quantify the impact of the alternatives (incl. cost-
+benefit analysis)
+Assess the alternatives in terms of their consistency
+with government policy and their effects across the
+community
+Assess the alternatives from a cost recovery
+perspective
+Evaluate alternatives
+Assess risks to regulatory outcomes for each
+alternative and analyse the targeting of resource
+needs accordingly
+Recommend preferred
+alternative
+Adopt (or recommend the adoption of) the
+alternative that was estimated to generate the
+highest net benefit
+Plan the implementation of
+government intervention
+Communicate objectives
+of intervention to
+relevant agencies
+Inform all relevant government agencies and
+stakeholders of the objectives of the intervention
+Develop an education campaign aimed at
+informing regulated entities implementing the
+intervention of the desired compliance outcomes
+MAKE REGULATION
+Develop
+administrative
+processes to enable
+implementation
+Develop or amend administrative processes to
+enable practical implementation of intervention
+including:
+a) enquiries process
+b) complaint handling process
+c) dispute resolution process
+d) licensing process
+e) compliance and enforcement process
+Activity Task Good practice that relates to the task
+Consider agency resources/capabilities in design
+of administrative processes
+Consider probity and governance requirements
+when allocating responsibility for regulatory
+activities to agencies
+Ensure that the processes developed are consistent
+with the government’s commitment to reducing
+regulatory burden
+12 &gt; Practices, processes and performance
+Practices, processes and performance &gt; 13
+Educate stakeholders about the
+government interventions
+OPERATE REGULATION
+Plan educational
+initiatives
+Articulate the objectives of each education/
+information initiative
+Deliver educational
+initiatives
+Review education
+initiatives
+Design education/information initiatives having
+considered and evaluated alternatives
+Activity Task Good practice that relates to the task
+Deliver education/information initiative(s) to plan
+Regularly review the information provided in
+education campaigns to ensure currency and assess
+the impact of the education campaigns
+Assess whether compliance obligations are
+conveyed simply/directly/repeatedly to relevant
+parties in a manner to ensure they understand
+their regulatory responsibilities and rights
+Report trends in education data to all branches/
+agencies involved in the government intervention
+Receive and respond to enquiries
+and complaints
+Register and license entities
+Respond to enquiries
+Resolve complaints
+Review enquiries and
+complaints data
+Process registration and
+licensing applications
+Provide the public with convenient mechanisms
+for making enquiries
+Provide accurate information in response to
+enquiries within agreed timeframes
+Provide the public with convenient mechanisms
+for making complaints
+Resolve complaint or refer complaint to appropriate
+party for resolution/escalation using established
+protocols
+Report trends in enquiries to all branches/agencies
+involved in the government intervention
+Report trends in complaints to all branches/
+agencies involved in the government intervention
+Provide convenient mechanism(s) for licence
+applicants/licensees to contact regulator and lodge
+licensing and registration applications
+Capture application and payment details promptly
+and accurately into relevant systems
+Assess applications for registrations and licences
+against the requirements of the scheme
+Consider impact of licensing decisions on third
+parties and informed them of decision to grant
+licence (where relevant)
+Communicate registration/licensing decisions
+within agreed timeframes stating reasons for
+decision
+Provide accurate information in response to
+complaints within agreed timeframes
+Explain complaints procedures to complainant
+including estimated timeframes
+14 &gt; Practices, processes and performance
+Manage ongoing registration/
+licensing process
+OPERATE REGULATION
+Process annual returns
+and renewals
+Provide convenient processes for annual reporting/
+licence renewals
+Review registration
+and licensing data
+Maintain register of licences and registrations in
+line with government policies
+Activity Task Good practice that relates to the task
+Report trends in licensing/registration applications
+data to all branches/agencies involved in the
+government intervention
+Report trends in complaints regarding registration
+and licensing processes to agencies involved in the
+government intervention
+Analyse the costs and benefits of data requests
+made to regulated entities
+Review compliance and
+enforcement data
+Assess enforcement activity to test whether
+enforcement effort is commensurate with the
+compliance breach or potential breaches
+Report trends in compliance data to all branches/
+agencies involved in the government intervention
+Reported trends in complaints and the outcomes
+of monitoring activities to all branches/agencies
+involved in the government intervention
+Monitor and enforce compliance
+of regulated entities
+Plan monitoring and
+enforcement activities
+Implement monitoring
+plans
+Identify monitoring and enforcement activity
+priorities and objectives using risk based approach
+Use complaints data to inform development of
+monitoring and enforcement plan and assign
+resources accordingly
+Implement plans to monitor compliance of
+regulated entities
+Remediate compliance
+breaches
+Remediate non-compliant behaviour and
+compliance breaches in proportionate manner
+(compliance effort commensurate with breach)
+Sanctions and penalties are designed to achieve
+the regulatory outcome
+Reasons are given in writing at the earliest
+opportunity to the regulated entity
+Manage complaints
+regarding registration/
+licensing decisions
+Resolve disputes or complaints regarding the
+granting, denial, or revocation of a licence and
+communicate reasons for those decisions to
+relevant stakeholders
+Practices, processes and performance &gt; 15
+Assess the performance of the
+government intervention
+Review the objectives of the
+government intervention
+REVIEW REGULATION
+Assess outcomes of
+the intervention
+Assess the extent to which the government
+intervention addressed the original problem and
+achieved the stated objectives
+Assess administrative
+performance
+associated with
+action undertaken
+Activity Task Good practice that relates to the task
+Consult stakeholders on their perceptions of the
+performance of the government intervention
+against stated objectives
+Consider compliance breaches when assessing
+effectiveness of regulatory government intervention
+Review processes and systems against the stated
+objectives of the intervention
+Assess administrative and other burdens borne by
+regulated entities in line with the government&#39;s
+commitment to reducing regulatory burden
+Recover cost of licensing/registration scheme from
+applicants as stated in objectives of the intervention
+Recommend
+modifications to
+intervention
+Assess the ongoing appropriateness of the
+identified regulatory objectives in light of actual
+performance
+Recommend the need for changes to policy or to
+regulatory intervention in light of actual
+performance and identify possible improvements
+16 &gt; Practices, processes and performance
+Coordinate activities between
+regulatory agencies
+COORDINATE RESPONSIBILITIES
+Determine and
+formalise
+responsibilities and
+activities of agencies
+Agree respective roles and responsibilities of
+regulators, agencies and departments giving
+consideration to probity and governance issues
+Manage ongoing
+relationships
+between agencies
+Activity Task Good practice that relates to the task
+Formalise the objective, method and staff for
+managing relationships with other regulators and
+agencies
+Negotiate the budget allocation for the delivery
+of tasks including the basis for any cost
+sharing/reimbursement
+Clearly articulate the issue/problem and the need
+for government intervention
+Agree information and data to be shared between
+agencies including mechanisms for enabling data
+sharing
+Improve coordination of regulatory effort between
+agencies through:
+a) promotion of efforts to minimise the
+administrative complexity for individuals
+or businesses who are subject to regulation from
+multiple regulators
+b) inter-agency co-ordination of resourcing on
+individual cases
+c) sharing of resources
+Engage in annual corporate planning processes to
+integrate activities, priorities and resourcing of
+agencies involved in regulatory cycle
+Demonstrate risk management approach to key
+aspects of regulatory administration
+Assess delegation of decision making to ensure
+consistency with legislation and management
+directives
+Implement mechanisms to minimise risk of
+corruption, misconduct, conflict of interest,
+regulatory capture and abuse of power
+Plan corporate processes
+and activities
+Manage capacity,
+processes and
+delegations
+Coordinate and plan within
+regulatory agencies
+Practices, processes and performance &gt; 17
+Good practices generally require their processes to be
+well documented, measured and regularly reviewed,
+according to their importance in the overall functions.
+Thus process maturity applies across many regulatory
+activities and is presented separately in the BBR
+framework. Because it does not derive specifically from
+the nature of regulation, but is an accepted good
+business practice in general, it is not presented as one
+of the good regulatory practices. Nevertheless, it is a
+practice directly related to implementing the principles
+of accountability, consistency and transparency.
+Process maturity is a way to determine the
+sophistication or level of development of processes
+across the regulatory scheme on the basis that the
+quality of regulation is likely to be higher if processes
+a formalised, documented, adhered to in practice and
+measured.
+Measurement requires a rating to establish the relative
+development and application consistency of each of
+the practices followed by the regulators to determine
+their ‘maturity’. It is adapted from the established
+principles of process maturity typically used when
+evaluating organisational processes. Accordingly,
+process maturity is evaluated to:
+• focus attention on how processes contribute to
+regulatory quality as, by definition, the processes
+being assessed are key to producing regulatory
+outcomes
+• establish a link between conduct of these
+regulatory activities and improvement
+opportunities, and
+• structure and prioritise implementation of
+improvements.
+A higher rating would be achieved the greater the
+degree or extent of documentation, measurement,
+or promotion of continuous improvement. The
+ratings are:
+Level 1—Informal and person dependant
+This is for cases where the process being performed
+is not documented or formalised. In other words, it is
+not recorded either in outline or in detail. The activity
+is person–dependent and the sequence, timing and
+result may vary during repetition, or be sacrificed
+under pressure. This requires significant supervision
+and there is no guarantee of either achieving the
+desired result or adhering to timelines. The activity is
+ad hoc, with the effectiveness of the activity is
+dependent on individuals.
+Level 2—Partially documented processes
+At this maturity level, the processes have been
+reviewed, documented and approved by the supervisor
+or the approving authority as the standard process. But
+it may be doubtful that the activity is being performed
+in all instances according its documentation. This may
+be because of process drift or a change since the
+document was drafted.
+Level 3—Fully documented processes
+At this level, there is consistency between the
+documented process and the deployed process. The
+process documented and deployed is applied at all the
+intended locations, by all supervisors and staff. There is
+also a seamless linkage to other processes wherever
+there needs to be any interaction to ensure a
+consistent level of service.
+Level 4—Level 3 plus measured processes
+The process has set measures and goals, such as
+adherence to timelines, customer satisfaction, cost,
+and the process is measured against these goals.
+Process variation is reduced through statistical
+management with corrective action able to be taken at
+the point of reference. Outcomes can be predicted with
+accuracy from organisational capability.
+Level 5—Level 4 plus continuously improvement
+At this level, the goals set for the process are analysed
+for achievements and improved regularly. The
+timelines, cost targets, satisfaction levels are achieved
+regularly and the targets are stretched using
+continuous quality improvement techniques.
+Improvements are evaluated and deployed using
+systematic methods.
+Process maturity therefore refers to the level of
+development and formalisation of the processes that
+support the regulatory activities. It plays an important
+role in managing risk as it encourages regulators to
+move away from person dependent processes, to ones
+that are well documented and understood, where
+documentation reflects practice, and where
+measurement is routinely reported and acted on.
+Regulators can improve their performance by
+consciously increasing the level of process maturity.
+Process maturity
+18 &gt; Practices, processes and performance
+The BBR Framework also allows for performance of
+the regulatory scheme to be considered in terms of:
+• efficiency—indicators developed by considering
+the key inputs and outputs that relate to each
+regulatory activity, and
+• effectiveness—indicators developed by
+considering the overall purpose and outcomes
+of the regulatory activity.
+The project has developed a suite of potential
+performance indicators for each of the activities in the
+regulatory framework. These performance indicators
+are the third set of measures that complete the overall
+regulatory performance measurement in the BBR
+framework when combined with the process indicators
+of good practice and process maturity. In particular
+they have been designed to link to, and hence provide
+further evidence for, assessments of good practices and
+process maturity. When interpreted together, the three
+sets of indicators provide a broad and more complete
+picture of regulatory performance that includes
+assessments of operational activities (efficiency) and of
+regulatory outcomes (effectiveness). The positioning of
+the performance indicators within the BBR
+measurement framework is illustrated below.
+Development of performance
+indicators
+The development of the performance indicators
+involved the identification of indicator concepts for
+each activity, where the indicator concept posed the
+question ‘what do we need to know?’ to gauge
+performance for each activity. One or more
+performance indicators for each activity were
+developed from these indicator concepts. They are
+most informative when viewed as a suite of indicators
+and not interpreted as isolated measures. If
+performance against single indicators is relied upon
+without the balance that occurs when the indicators
+are viewed collectively, inaccurate interpretations may
+be made leading to inappropriate decision-making.
+The performance indicators are also designed so that
+directional changes provide clear and unambiguous
+interpretations of performance. This means that goals
+or targets can be assigned to each indicator once
+sufficient data has been obtained to determine the
+appropriate level.
+Where possible, the performance indicators are
+expressed in generic language that is applicable across
+regulatory schemes. Not all of the indicators will apply
+to all schemes—for example, if a scheme does not
+include licensing provisions then the licensing related
+indicators would not apply. For some schemes it may
+be helpful to tailor the language to reflect that
+customarily used within that scheme.
+Overall, the performance indicators reflect the nature
+of the activities within each of the make, operate and
+review stages and coordinate responsibilities. It should
+also be noted that the performance indicators, as well
+as the good practices and process maturity measures,
+can be used for comparing regulatory performance
+within a specific scheme over a time and also across
+regulatory schemes.
+However, the performance indicators even when
+combined with the good practices and process
+maturity measures do not provide all the management
+information that may be required by those managing
+regulatory activities and tasks. There are many other
+pieces of information relating to operational detail that
+are important for management to access when making
+decisions. Therefore, it is intended that managers will
+seek more information than is represented by the
+performance indicators. For example, those managing
+a licensing process should be aware of the number of
+licence applications received. This data may well
+convey crucial information about the licensing
+intervention and inform decisions about the resources
+required to process the applications, even though the
+number of applications received does not in itself
+constitute performance data.
+Performance
+measurement
+Regulatory
+objective
+Regulatory
+performance
+Performance
+measurement
+Process
+maturity
+Good
+practice
+Performance
+indicators
+Process
+indicators
+Regulatory
+activities
+Standard regulatory approaches
+BBR approach
+Measuring regulatory performance in the
+BBR Framework
+Making it work &gt; 19
+The BBR framework can be applied in two modes:
+a) A ‘one-off’ evaluation to assess a regulator’s
+current practice against the standard of the good
+practices (gap analysis) to identify improvements.
+There is the option of repeating this periodically
+at medium to long term intervals, say every three
+years. Key steps in this type of application are:
+• gap analysis
+• interpret and understand reasons for gaps
+• identify priority areas for improvement
+• design and plan an improvement strategy
+• implement the improvement strategy
+• monitor results and review outcomes.
+b) Ongoing monitoring of performance using the
+generic performance measures in terms of
+efficiency and effectiveness. Key steps in this
+type of application are:
+• adapt BBR generic performance measures
+to the specific regulator or scheme
+• determine data needs and availability
+(eg is current data adequate for purposes?)
+• collect data
+• estimate measures
+• interpret measures and trends
+• identify particular activities for further
+assessment and improvement (eg measures
+may indicate problems areas but not the
+causes, that may require much more detailed
+and specific analysis).
+Both of these modes of application are through a self-
+evaluation process. Self evaluation can be a useful
+vehicle for accurate identification of strengths and
+opportunities for improvement. It is also a learning
+opportunity supporting managers to better understand
+and assess the practices and processes within their area
+of accountability and should be seen as a starting point
+for continuous improvement. The BBR framework is
+designed to be implemented using a self evaluation
+process with facilitated workshops to develop action
+plans for improving regulatory performance.
+The BBR framework was piloted by Consumer Affairs
+Victoria on two regulatory schemes using this
+methodology for the purposes of:
+• assessing the evaluation framework as a
+diagnostic tool to measure regulatory
+performance
+• assessing the associated approaches and processes
+involved in its application, and
+• identifying areas that need to be taken into
+account for wider application of the BBR
+framework.
+The pilot confirmed that the BBR framework has the
+capacity to identify issues and opportunities for
+improvement. The challenge will be to tailor and
+incorporate further improvements and examine
+opportunities to embed a continuous improvement
+culture amongst different regulators.
+Making it work
+CAV research and discussion papers &gt; 21
+1 Consumer Education in Schools: Background Report,
+November 2003
+2 What do we Mean by ‘Vulnerable’ and
+‘Disadvantaged’ Consumers?, March 2004
+3 Information Provision and Education Strategies,
+March 2006
+4 Social Marketing and Consumer Policy, March 2006
+5 Designing Quality Rating Schemes for Service
+Providers, March 2006
+6 Regulating the Cost of Credit, March 2006
+7 Consumer Advocacy in Victoria, March 2006
+8 Choosing Between General and Industry-specific
+Regulation, November 2006
+9 Using Licensing to Protect Consumers’ Interests,
+November 2006
+10 Consumer Detriment in Victoria: a Survey of its
+Nature, Costs and Implications, October 2006
+11 Stopping Rogue Traders, November 2006
+12 Unfair Contract Terms in Victoria: Research into
+their Extent, Nature, Cost and Implications,
+October 2007
+13 Institutional Arrangements for Consumer Protection
+Agencies, April 2008
+14 Better Business Regulation, May 2008
+Consumer Affairs Victoria
+research and discussion
+papers
+May 2008
+C-68-01-1090
+Consumer Affairs Victoria
+Victorian Consumer &amp; Business Centre
+113 Exhibition Street
+Melbourne 3000
+Telephone 1300 55 81 81 (local call charge)
+Email consumer@justice.vic.gov.au
+Website www.consumer.vic.gov.au
+Regional offices are located in Ballarat,
+Bendigo, Geelong, Morwell, Mildura,
+Wangaratta and Warrnambool.
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
